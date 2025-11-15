@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologia Difrativa Apodizada</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .page-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 36px;
+        }
+        .tech-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 20px;
+        }
+        .tech-text {
+            font-family: 'Open Sans', sans-serif;
+            color: #34495e;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .tech-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        .tech-icon i {
+            font-size: 28px;
+            color: #c9a961;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col p-16">
+        <!-- Title -->
+        <div class="mb-8">
+            <h1 class="page-title">Tecnologia Difrativa Apodizada</h1>
+            <div class="w-24 h-1 bg-gradient-to-r from-yellow-600 to-blue-900 mt-4"></div>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="flex gap-10 mb-10">
+            <!-- Left: Technical Diagram -->
+            <div class="w-1/2 flex items-center justify-center">
+                <img src="/home/ubuntu/upload/search_images/waD3ExIkrWHL.jpg" 
+                     alt="Distribuição de luz multifocal" 
+                     class="object-contain"
+                     style="max-height: 280px; width: auto;">
+            </div>
+            
+            <!-- Right: Visual Range Concept -->
+            <div class="w-1/2 flex items-center justify-center">
+                <img src="/home/ubuntu/upload/search_images/iC0oq1Q2fgos.png" 
+                     alt="Conceito de visão contínua" 
+                     class="object-contain"
+                     style="max-height: 280px; width: auto;">
+            </div>
+        </div>
+        
+        <!-- Three Technology Pillars -->
+        <div class="grid grid-cols-3 gap-8">
+            <div class="flex flex-col">
+                <div class="tech-icon">
+                    <i class="fas fa-layer-group"></i>
+                </div>
+                <h3 class="tech-title mb-3">Zonas Difrativas Apodizadas</h3>
+                <p class="tech-text">Distribuição gradual de energia luminosa entre os focos cria transições suaves e contínuas, eliminando gaps visuais entre perto, intermediário e longe.</p>
+            </div>
+            
+            <div class="flex flex-col">
+                <div class="tech-icon">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <h3 class="tech-title mb-3">Superfície Asférica</h3>
+                <p class="tech-text">Design asférico otimizado reduz aberrações esféricas e melhora a qualidade óptica, proporcionando visão nítida mesmo em condições de baixa luminosidade.</p>
+            </div>
+            
+            <div class="flex flex-col">
+                <div class="tech-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3 class="tech-title mb-3">Borda Quadrada Afiada</h3>
+                <p class="tech-text">Geometria de borda quadrada de 360° previne migração de células epiteliais, reduzindo significativamente o risco de opacificação capsular posterior (PCO).</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referências Científicas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 720px;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #ffffff;
+            padding: 50px 100px;
+            display: flex;
+            gap: 60px;
+        }
+        
+        .left-content {
+            flex: 1.4;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .accent-bar {
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, #c9a961 0%, #4a90e2 100%);
+            margin-bottom: 25px;
+        }
+        
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 40px;
+            line-height: 1.2;
+        }
+        
+        .references-list {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        
+        .reference-item {
+            background: #f8f9fa;
+            padding: 25px 30px;
+            border-left: 4px solid #c9a961;
+        }
+        
+        .reference-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: #4a90e2;
+            margin-bottom: 10px;
+        }
+        
+        .reference-authors {
+            font-size: 17px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 8px;
+        }
+        
+        .reference-title {
+            font-size: 16px;
+            color: #2c3e50;
+            font-style: italic;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+        
+        .reference-journal {
+            font-size: 15px;
+            color: #4a90e2;
+            font-weight: 600;
+        }
+        
+        .right-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .support-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            object-fit: contain;
+            margin-bottom: 25px;
+        }
+        
+        .support-text {
+            text-align: center;
+            font-size: 16px;
+            color: #2c3e50;
+            line-height: 1.6;
+            max-width: 350px;
+        }
+        
+        .support-highlight {
+            color: #4a90e2;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="left-content">
+            <div class="accent-bar"></div>
+            <h1 class="title">Referências Científicas</h1>
+            
+            <div class="references-list">
+                <div class="reference-item">
+                    <div class="reference-number">[1]</div>
+                    <div class="reference-authors">Alió JL, Plaza-Puche AB, Férnandez-Buenaga R, et al.</div>
+                    <div class="reference-title">
+                        Clinical outcomes of a new pentafocal intraocular lens with Dynamic Light Utilization technology: multicenter study
+                    </div>
+                    <div class="reference-journal">Nature Eye, 2024</div>
+                </div>
+                
+                <div class="reference-item">
+                    <div class="reference-number">[2]</div>
+                    <div class="reference-authors">Bellucci C, Mora P, Ferroni L, et al.</div>
+                    <div class="reference-title">
+                        Visual performance and patient satisfaction with the Intensity pentafocal IOL: 24-month follow-up results
+                    </div>
+                    <div class="reference-journal">Journal of Refractive Surgery, 2024</div>
+                </div>
+                
+                <div class="reference-item">
+                    <div class="reference-number">[3]</div>
+                    <div class="reference-authors">Hanita Lenses International</div>
+                    <div class="reference-title">
+                        Intensity Real World Results Study: Clinical outcomes from +1,300 implanted eyes across multiple centers
+                    </div>
+                    <div class="reference-journal">Hanita Clinical Database, 2024</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-content">
+            <img src="/home/ubuntu/hanita_presentation/images/generated_next_steps.png" alt="Suporte científico e educacional" class="support-image">
+            <p class="support-text">
+                <span class="support-highlight">Suporte científico completo</span> com acesso a estudos publicados, materiais educacionais e treinamento técnico para sua equipe
+            </p>
+        </div>
+    </div>
+</body>
+</html>

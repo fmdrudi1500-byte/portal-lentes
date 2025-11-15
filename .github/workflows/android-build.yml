@@ -1,0 +1,147 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:  # Permite executar manualmente
+
+jobs:
+  build:
+    name: Build APK
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. Checkout do código
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      # 2. Configurar Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      
+      # 3. Configurar pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      
+      # 4. Cache de dependências do pnpm
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+      
+      - name: Setup pnpm cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+      
+      # 5. Instalar dependências do Node
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      
+      # 6. Build de produção do React
+      - name: Build React app
+        run: pnpm build
+      
+      # 7. Copiar build para dist/client (Capacitor)
+      - name: Prepare Capacitor build
+        run: |
+          mkdir -p dist/client
+          cp -r dist/public/* dist/client/
+      
+      # 8. Configurar Java 17
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+      
+      # 9. Configurar Android SDK
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+      
+      # 10. Cache do Gradle
+      - name: Cache Gradle
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+      
+      # 11. Sincronizar Capacitor
+      - name: Sync Capacitor
+        run: npx cap sync android
+      
+      # 12. Dar permissão ao Gradle wrapper
+      - name: Make gradlew executable
+        run: chmod +x android/gradlew
+      
+      # 13. Build do APK
+      - name: Build APK
+        run: |
+          cd android
+          ./gradlew assembleDebug --no-daemon --stacktrace
+      
+      # 14. Renomear APK com data e versão
+      - name: Rename APK
+        run: |
+          mkdir -p apk-output
+          APK_NAME="PortalDeLentes-$(date +%Y%m%d-%H%M%S).apk"
+          cp android/app/build/outputs/apk/debug/app-debug.apk apk-output/$APK_NAME
+          echo "APK_NAME=$APK_NAME" >> $GITHUB_ENV
+      
+      # 15. Upload do APK como artifact
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: portal-lentes-apk
+          path: apk-output/*.apk
+          retention-days: 30
+      
+      # 16. Criar release (opcional - apenas em tags)
+      - name: Create Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v1
+        with:
+          files: apk-output/*.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      # 17. Comentar no PR com link do APK
+      - name: Comment PR
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '✅ APK gerado com sucesso! Baixe em: Actions → Artifacts'
+            })
+      
+      # 18. Sumário do build
+      - name: Build Summary
+        run: |
+          echo "### ✅ Build Concluído com Sucesso!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**APK gerado:** ${{ env.APK_NAME }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Como baixar:**" >> $GITHUB_STEP_SUMMARY
+          echo "1. Vá em Actions → Última execução" >> $GITHUB_STEP_SUMMARY
+          echo "2. Role até 'Artifacts'" >> $GITHUB_STEP_SUMMARY
+          echo "3. Baixe 'portal-lentes-apk'" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Tamanho do APK:** $(du -h apk-output/*.apk | cut -f1)" >> $GITHUB_STEP_SUMMARY

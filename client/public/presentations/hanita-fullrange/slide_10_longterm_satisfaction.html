@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satisfação Sustentada</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .page-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 36px;
+        }
+        .stat-hero {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            color: #c9a961;
+            font-size: 64px;
+            line-height: 1;
+        }
+        .stat-label {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 22px;
+        }
+        .body-text {
+            font-family: 'Open Sans', sans-serif;
+            color: #34495e;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .highlight-text {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 19px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col p-16">
+        <!-- Title -->
+        <div class="mb-6">
+            <h1 class="page-title">Satisfação Sustentada</h1>
+            <div class="w-24 h-1 bg-gradient-to-r from-yellow-600 to-blue-900 mt-3"></div>
+        </div>
+        
+        <!-- Main Content Grid -->
+        <div class="flex gap-8 flex-1">
+            <!-- Left: Chart Section -->
+            <div class="w-3/5 flex flex-col justify-center">
+                <img src="/home/ubuntu/hanita_presentation/images/chart_satisfaction.png" 
+                     alt="Gráfico de satisfação ao longo de 24 meses" 
+                     class="object-contain w-full"
+                     style="max-height: 480px;">
+                
+                <div class="mt-6 text-center">
+                    <p class="body-text">FullRange mantém <strong style="color: #c9a961;">95% de satisfação</strong> após 2 anos, enquanto lentes convencionais declinam para <strong style="color: #e74c3c;">78%</strong></p>
+                </div>
+            </div>
+            
+            <!-- Right: Lifestyle & Key Points -->
+            <div class="w-2/5 flex flex-col justify-center space-y-6">
+                <!-- Hero Stat -->
+                <div class="text-center mb-4">
+                    <p class="stat-hero">95%</p>
+                    <p class="stat-label">Muito Satisfeitos<br>após 2 Anos</p>
+                </div>
+                
+                <!-- Lifestyle Image -->
+                <div class="mb-4">
+                    <img src="/home/ubuntu/hanita_presentation/images/generated_longterm_satisfaction.png" 
+                         alt="Pacientes ativos e felizes" 
+                         class="object-contain w-full"
+                         style="max-height: 220px;">
+                </div>
+                
+                <!-- Key Points -->
+                <div class="space-y-4">
+                    <div class="flex items-start gap-3">
+                        <i class="fas fa-check-circle" style="color: #c9a961; font-size: 20px; margin-top: 2px;"></i>
+                        <p class="body-text"><strong>Qualidade de Vida Mantida:</strong> Pacientes continuam ativos e independentes</p>
+                    </div>
+                    
+                    <div class="flex items-start gap-3">
+                        <i class="fas fa-chart-line" style="color: #c9a961; font-size: 20px; margin-top: 2px;"></i>
+                        <p class="body-text"><strong>Satisfação Crescente:</strong> Adaptação completa aumenta conforto visual</p>
+                    </div>
+                    
+                    <div class="flex items-start gap-3">
+                        <i class="fas fa-thumbs-up" style="color: #c9a961; font-size: 20px; margin-top: 2px;"></i>
+                        <p class="body-text"><strong>Baixo Arrependimento:</strong> Menos de 2% reportam insatisfação</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

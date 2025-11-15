@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satisfação do Paciente</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 720px;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #ffffff;
+            padding: 50px 100px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            margin-bottom: 30px;
+        }
+        
+        .accent-bar {
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, #c9a961 0%, #4a90e2 100%);
+            margin-bottom: 20px;
+        }
+        
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1e3a5f;
+            line-height: 1.2;
+        }
+        
+        .satisfaction-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 35px;
+            align-items: center;
+        }
+        
+        .stat-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .main-stat {
+            background: linear-gradient(135deg, #1e3a5f 0%, #4a90e2 100%);
+            padding: 30px 35px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 72px;
+            font-weight: 900;
+            color: #c9a961;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 20px;
+            color: #ffffff;
+            font-weight: 600;
+        }
+        
+        .stat-details {
+            font-size: 17px;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+        
+        .image-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .diagram-image {
+            width: 100%;
+            max-width: 450px;
+            height: auto;
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 25px;
+        }
+        
+        .testimonial-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-top: 4px solid #c9a961;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .quote-icon {
+            font-size: 32px;
+            color: #4a90e2;
+            margin-bottom: 12px;
+        }
+        
+        .quote-text {
+            font-size: 15px;
+            color: #2c3e50;
+            line-height: 1.5;
+            margin-bottom: 15px;
+            flex: 1;
+        }
+        
+        .author-info {
+            margin-top: auto;
+        }
+        
+        .author-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 17px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 3px;
+        }
+        
+        .author-title {
+            font-size: 13px;
+            color: #4a90e2;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="accent-bar"></div>
+            <h1 class="title">Satisfação do Paciente</h1>
+        </div>
+        
+        <div class="satisfaction-section">
+            <div class="stat-content">
+                <div class="main-stat">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Alta Satisfação do Paciente</div>
+                </div>
+                <p class="stat-details">
+                    Estudos clínicos com +1.3K olhos demonstram que pacientes implantados com Intensity reportam <strong>excelente visão funcional</strong> em todas as distâncias e <strong>mínimas queixas</strong> de distúrbios visuais como halos e brilho.
+                </p>
+            </div>
+            
+            <div class="image-content">
+                <img src="/home/ubuntu/upload/search_images/94Qyj6Fqttse.png" alt="Design óptico pentafocal" class="diagram-image">
+            </div>
+        </div>
+        
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="quote-text">
+                    Excelência na visão dos pacientes em todos os focos.
+                </p>
+                <div class="author-info">
+                    <div class="author-name">Dr. Bianchi</div>
+                    <div class="author-title">Cirurgião Oftalmologista</div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="quote-text">
+                    Com Intensity, quando perguntados, os pacientes relatam muito sobre boa visão sem auxílio e nada sobre halos e brilho.
+                </p>
+                <div class="author-info">
+                    <div class="author-name">Prof. Roberto Bellucci</div>
+                    <div class="author-title">Especialista Renomado</div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="quote-text">
+                    Temos a IOL de visão clara mais ampla do mundo. A IOL INTENSITY é altamente satisfatória para os pacientes.
+                </p>
+                <div class="author-info">
+                    <div class="author-name">Dr. Santaro Noguchi</div>
+                    <div class="author-title">Especialista em Catarata</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

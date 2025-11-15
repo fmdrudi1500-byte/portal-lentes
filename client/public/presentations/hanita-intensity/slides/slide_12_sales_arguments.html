@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Argumentos de Venda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 720px;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #ffffff;
+            padding: 50px 100px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            margin-bottom: 40px;
+        }
+        
+        .accent-bar {
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, #c9a961 0%, #4a90e2 100%);
+            margin-bottom: 20px;
+        }
+        
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1e3a5f;
+            line-height: 1.2;
+        }
+        
+        .arguments-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            flex: 1;
+        }
+        
+        .argument-card {
+            background: #f8f9fa;
+            padding: 30px;
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        
+        .argument-card:last-child {
+            grid-column: 1 / -1;
+            max-width: 50%;
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        .argument-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            font-weight: 900;
+            background: linear-gradient(135deg, #4a90e2 0%, #c9a961 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            flex-shrink: 0;
+            width: 60px;
+        }
+        
+        .argument-content {
+            flex: 1;
+        }
+        
+        .argument-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 10px;
+            line-height: 1.2;
+        }
+        
+        .argument-description {
+            font-size: 16px;
+            color: #2c3e50;
+            line-height: 1.5;
+        }
+        
+        .highlight-keyword {
+            color: #4a90e2;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="accent-bar"></div>
+            <h1 class="title">5 Argumentos de Venda</h1>
+        </div>
+        
+        <div class="arguments-grid">
+            <div class="argument-card">
+                <div class="argument-number">1</div>
+                <div class="argument-content">
+                    <h3 class="argument-title">Visão Mais Ampla do Mundo</h3>
+                    <p class="argument-description">
+                        <span class="highlight-keyword">5 focos simétricos</span> proporcionam visão contínua de infinito até 40 cm, sem gaps ou zonas de transição desconfortáveis. Seus pacientes terão liberdade visual total.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="argument-card">
+                <div class="argument-number">2</div>
+                <div class="argument-content">
+                    <h3 class="argument-title">46% Menos Distúrbios Visuais</h3>
+                    <p class="argument-description">
+                        Tecnologia <span class="highlight-keyword">DLU proprietária</span> reduz significativamente halos e brilho comparado a lentes trifocais convencionais. Conforto visual superior dia e noite.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="argument-card">
+                <div class="argument-number">3</div>
+                <div class="argument-content">
+                    <h3 class="argument-title">Tecnologia Patenteada</h3>
+                    <p class="argument-description">
+                        Algoritmo <span class="highlight-keyword">Dynamic Light Utilization</span> exclusivo da Hanita maximiza eficiência luminosa através de loops iterativos, resultando em imagens mais brilhantes e nítidas.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="argument-card">
+                <div class="argument-number">4</div>
+                <div class="argument-content">
+                    <h3 class="argument-title">Excelência em Todos os Focos</h3>
+                    <p class="argument-description">
+                        Acuidade visual <span class="highlight-keyword">20/20 em todas as distâncias</span> comprovada em estudos com +1.3K olhos. Seus pacientes terão visão funcional excepcional para todas as atividades diárias.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="argument-card">
+                <div class="argument-number">5</div>
+                <div class="argument-content">
+                    <h3 class="argument-title">95% de Satisfação</h3>
+                    <p class="argument-description">
+                        Estudos clínicos demonstram <span class="highlight-keyword">alta satisfação sustentada</span> dos pacientes. Cirurgiões renomados reportam que pacientes falam sobre excelente visão e não sobre distúrbios visuais.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

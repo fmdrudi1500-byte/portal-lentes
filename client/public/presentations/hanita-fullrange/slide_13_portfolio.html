@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Hanita: Lentes Multifocais</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .page-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 36px;
+        }
+        .category-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 18px;
+        }
+        .category-text {
+            font-family: 'Open Sans', sans-serif;
+            color: #34495e;
+            font-size: 15px;
+            line-height: 1.4;
+        }
+        .portfolio-box {
+            background: #f8f9fa;
+            padding: 20px;
+            min-height: 140px;
+        }
+        .icon-badge {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 14px;
+        }
+        .icon-badge i {
+            color: #c9a961;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col p-16">
+        <!-- Title -->
+        <div class="mb-8">
+            <h1 class="page-title">Portfólio Hanita: Lentes Multifocais</h1>
+            <div class="w-24 h-1 bg-gradient-to-r from-yellow-600 to-blue-900 mt-4"></div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="flex flex-col items-center flex-1">
+            <!-- Portfolio Image -->
+            <div class="mb-10">
+                <img src="/home/ubuntu/hanita_presentation/images/generated_value_proposition.png" 
+                     alt="Portfólio de lentes Hanita com diferentes designs" 
+                     class="object-contain"
+                     style="max-height: 240px;">
+            </div>
+            
+            <!-- Portfolio Categories Grid: 4 columns -->
+            <div class="grid grid-cols-4 gap-6 w-full">
+                <!-- FullRange/Intensity -->
+                <div class="portfolio-box">
+                    <div class="icon-badge">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="category-title mb-3">FullRange/Intensity</h3>
+                    <p class="category-text">Lente multifocal premium com tecnologia difrativa apodizada para visão contínua em todas as distâncias</p>
+                </div>
+                
+                <!-- Closed-Loop Haptic -->
+                <div class="portfolio-box">
+                    <div class="icon-badge">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <h3 class="category-title mb-3">Hápticos Closed-Loop</h3>
+                    <p class="category-text">Design de alça fechada oferece estabilidade superior e centralização precisa no saco capsular</p>
+                </div>
+                
+                <!-- Open-Loop Haptic -->
+                <div class="portfolio-box">
+                    <div class="icon-badge">
+                        <i class="fas fa-adjust"></i>
+                    </div>
+                    <h3 class="category-title mb-3">Hápticos Open-Loop</h3>
+                    <p class="category-text">Flexibilidade e adaptação para diferentes tamanhos de saco capsular, facilitando implantação</p>
+                </div>
+                
+                <!-- Plate Haptic -->
+                <div class="portfolio-box">
+                    <div class="icon-badge">
+                        <i class="fas fa-square"></i>
+                    </div>
+                    <h3 class="category-title mb-3">Plate Haptic</h3>
+                    <p class="category-text">Design de placa para casos especiais, fixação sulcular e situações de suporte capsular comprometido</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

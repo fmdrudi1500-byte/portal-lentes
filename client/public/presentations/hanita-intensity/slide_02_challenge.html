@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Desafio da Visão Multifocal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 720px;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #ffffff;
+            padding: 50px 100px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            margin-bottom: 35px;
+        }
+        
+        .accent-bar {
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, #c9a961 0%, #4a90e2 100%);
+            margin-bottom: 20px;
+        }
+        
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+        
+        .intro-text {
+            font-size: 20px;
+            color: #2c3e50;
+            line-height: 1.5;
+            max-width: 900px;
+        }
+        
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 35px;
+        }
+        
+        .distance-card {
+            text-align: center;
+        }
+        
+        .icon-circle {
+            width: 85px;
+            height: 85px;
+            background: linear-gradient(135deg, #4a90e2, #2c5282);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            font-size: 36px;
+        }
+        
+        .distance-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 8px;
+        }
+        
+        .distance-range {
+            font-size: 16px;
+            color: #4a90e2;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        
+        .distance-description {
+            font-size: 16px;
+            color: #2c3e50;
+            line-height: 1.5;
+        }
+        
+        .challenge-box {
+            background: linear-gradient(135deg, #fff8e1 0%, #fff3cd 100%);
+            border-left: 6px solid #c9a961;
+            padding: 25px 35px;
+        }
+        
+        .challenge-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: #c9a961;
+            margin-bottom: 12px;
+        }
+        
+        .challenge-text {
+            font-size: 18px;
+            color: #2c3e50;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="accent-bar"></div>
+            <h1 class="title">O Desafio da Visão Multifocal</h1>
+            <p class="intro-text">
+                Após a cirurgia de catarata, os pacientes desejam independência total de óculos para todas as atividades diárias, desde ler um livro até dirigir à noite.
+            </p>
+        </div>
+        
+        <div class="content-grid">
+            <div class="distance-card">
+                <div class="icon-circle">📖</div>
+                <h3 class="distance-title">Visão de Perto</h3>
+                <p class="distance-range">(33-40 cm)</p>
+                <p class="distance-description">
+                    Leitura de livros, jornais, mensagens no celular e atividades manuais detalhadas exigem foco preciso em curta distância.
+                </p>
+            </div>
+            
+            <div class="distance-card">
+                <div class="icon-circle">💻</div>
+                <h3 class="distance-title">Visão Intermediária</h3>
+                <p class="distance-range">(60-80 cm)</p>
+                <p class="distance-description">
+                    Trabalho no computador, uso de tablet, visualização de painel do carro e atividades domésticas requerem foco intermediário contínuo.
+                </p>
+            </div>
+            
+            <div class="distance-card">
+                <div class="icon-circle">🚗</div>
+                <h3 class="distance-title">Visão de Longe</h3>
+                <p class="distance-range">(infinito)</p>
+                <p class="distance-description">
+                    Direção, reconhecimento facial à distância, apreciação de paisagens e atividades ao ar livre dependem de excelente visão de longe.
+                </p>
+            </div>
+        </div>
+        
+        <div class="challenge-box">
+            <div class="challenge-label">O Desafio:</div>
+            <p class="challenge-text">
+                Lentes multifocais convencionais criam <strong>"gaps"</strong> ou zonas de transição desconfortáveis entre os focos, limitando a qualidade visual em distâncias intermediárias e causando distúrbios visuais como halos e brilho intenso.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encerramento</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 720px;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 50%, #4a90e2 100%);
+            display: flex;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .left-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 60px;
+            position: relative;
+        }
+        
+        .logo-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 900;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+        
+        .logo-subtitle {
+            font-size: 20px;
+            color: #c9a961;
+            text-align: center;
+            font-weight: 600;
+            letter-spacing: 3px;
+        }
+        
+        .decorative-line {
+            width: 200px;
+            height: 3px;
+            background: linear-gradient(90deg, transparent 0%, #c9a961 50%, transparent 100%);
+            margin: 30px 0;
+        }
+        
+        .tagline {
+            font-size: 18px;
+            color: rgba(255,255,255,0.9);
+            text-align: center;
+            line-height: 1.6;
+            max-width: 350px;
+        }
+        
+        .right-section {
+            flex: 1.2;
+            background: #ffffff;
+            padding: 80px 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .closing-message {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 400;
+            color: #2c3e50;
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+        
+        .cta-box {
+            background: linear-gradient(135deg, #1e3a5f 0%, #4a90e2 100%);
+            padding: 35px 40px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .cta-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: #c9a961;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+        
+        .cta-subtitle {
+            font-size: 18px;
+            color: #ffffff;
+            line-height: 1.5;
+        }
+        
+        .contact-section {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 17px;
+            color: #2c3e50;
+        }
+        
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #4a90e2, #c9a961);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+        
+        .contact-text {
+            flex: 1;
+        }
+        
+        .contact-label {
+            font-size: 13px;
+            color: #4a90e2;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 3px;
+        }
+        
+        .contact-value {
+            font-size: 17px;
+            color: #1e3a5f;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="left-section">
+            <div class="logo-text">HANITA</div>
+            <div class="logo-subtitle">LENSES</div>
+            <div class="decorative-line"></div>
+            <p class="tagline">
+                Inovação em tecnologia oftálmica.<br>
+                Excelência em visão multifocal.<br>
+                Compromisso com seus pacientes.
+            </p>
+        </div>
+        
+        <div class="right-section">
+            <p class="closing-message">
+                Obrigado por conhecer a <strong>Intensity Pentafocal</strong>, a lente intraocular com visão mais ampla do mundo.
+            </p>
+            
+            <div class="cta-box">
+                <h2 class="cta-title">Transforme a Visão dos Seus Pacientes</h2>
+                <p class="cta-subtitle">
+                    Ofereça tecnologia DLU de última geração com 5 focos e mínimos distúrbios visuais
+                </p>
+            </div>
+            
+            <div class="contact-section">
+                <div class="contact-item">
+                    <div class="contact-icon">🌐</div>
+                    <div class="contact-text">
+                        <div class="contact-label">Website</div>
+                        <div class="contact-value">www.hanitalenses.com</div>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-text">
+                        <div class="contact-label">Email</div>
+                        <div class="contact-value">info@hanitalenses.com</div>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div class="contact-text">
+                        <div class="contact-label">Contato</div>
+                        <div class="contact-value">Entre em contato com seu representante local</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

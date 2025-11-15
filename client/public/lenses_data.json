@@ -1,0 +1,400 @@
+{
+  "lenses": [
+    {
+      "id": "hanita-intensity",
+      "name": "Hanita Intensity",
+      "presentationPath": "/presentations/intensity",
+      "manufacturer": "Hanita Lenses",
+      "type": "Trifocal",
+      "category": "Premium Multifocal",
+      "tagline": "Nova geração de IOLs corretivas",
+      "image": "/images/hanita_intensity_cover.jpg",
+      "description": "A Intensity é uma lente intraocular trifocal de última geração que oferece visão nítida em todas as distâncias com tecnologia difrativa apodizada avançada.",
+      "keyFeatures": [
+        "Tecnologia difrativa apodizada avançada",
+        "Visão trifocal completa (longe, intermediário, perto)",
+        "Material hidrofóbico premium",
+        "Design de háptico otimizado",
+        "Baixo índice de distúrbios visuais"
+      ],
+      "technology": {
+        "title": "Tecnologia Difrativa Apodizada",
+        "description": "Design óptico avançado que distribui a luz de forma otimizada entre os três focos principais, proporcionando visão contínua e natural."
+      },
+      "clinicalData": {
+        "visualAcuity": "Excelente acuidade visual em todas as distâncias",
+        "spectacleIndependence": "Alta taxa de independência de óculos",
+        "patientSatisfaction": "Elevada satisfação do paciente",
+        "studies": ["Estudos clínicos Hanita", "Publicações peer-reviewed"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico",
+        "opticDiameter": "6.0 mm",
+        "overallLength": "13.0 mm",
+        "powerRange": "+10.0 D a +30.0 D",
+        "aConstant": "118.5"
+      },
+      "advantages": [
+        "Visão trifocal completa",
+        "Tecnologia difrativa apodizada",
+        "Alta qualidade óptica",
+        "Baixos distúrbios visuais",
+        "Material premium"
+      ],
+      "indications": [
+        "Pacientes que desejam independência total de óculos",
+        "Estilo de vida ativo",
+        "Necessidade de visão em todas as distâncias"
+      ]
+    },
+    {
+      "id": "hanita-fullrange",
+      "name": "Hanita FullRange",
+      "presentationPath": "/presentations/fullrange",
+      "manufacturer": "Hanita Lenses",
+      "type": "Multifocal",
+      "category": "Premium Multifocal",
+      "tagline": "See Beyond - Veja Além",
+      "image": "/images/hanita_fullrange_cover.jpg",
+      "description": "A FullRange é uma lente intraocular multifocal premium com design óptico apodizado que oferece visão funcional contínua de 40cm ao infinito com contraste superior.",
+      "keyFeatures": [
+        "Visão full-range de 40cm ao infinito",
+        "Design óptico asférico difrativo apodizado",
+        "Contraste comparável a lente monofocal",
+        "Menor taxa de YAG capsulotomia",
+        "Mínima luz dispersa intraocular"
+      ],
+      "technology": {
+        "title": "Design Óptico Apodizado",
+        "description": "Superfície difrativa apodizada asférica que proporciona funcionalidade visual em todas as condições de luz (fotópica, mesotópica e escotópica) com contraste superior."
+      },
+      "clinicalData": {
+        "visualAcuity": "Visão funcional acima de 0.2 LogMAR de 40cm ao infinito",
+        "spectacleIndependence": "Alta independência de óculos",
+        "patientSatisfaction": "95% dos pacientes altamente satisfeitos (Dr. German Bianchi, 1000 implantes)",
+        "studies": ["Alio J.L. et al., 2015", "Estudos clínicos Hanita"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofílico com absorvedor UV e filtro de luz violeta",
+        "opticDiameter": "6.0 mm",
+        "powerRange": "0.0 a +30.0 D (incrementos de 0.5D)",
+        "additionPowers": "+3.0 D e +2.25 D",
+        "refractiveIndex": "1.46 hidratado (35°C)",
+        "aConstant": "118.6 (SeeLens MF) / 118.5 (BunnyLens MF)"
+      },
+      "advantages": [
+        "Visão full-range sem gaps",
+        "Sensibilidade ao contraste superior",
+        "Menor taxa de YAG",
+        "Mínimas complicações",
+        "Precisão refrativa excelente"
+      ],
+      "indications": [
+        "Pacientes que desejam visão funcional em todas as distâncias",
+        "Necessidade de contraste superior",
+        "Busca por segurança e previsibilidade"
+      ]
+    },
+    {
+      "id": "alcon-vivity",
+      "name": "Alcon Vivity",
+      "presentationPath": "/presentations/vivity",
+      "manufacturer": "Alcon",
+      "type": "EDOF",
+      "category": "Extended Depth of Focus",
+      "tagline": "Expanda o Possível",
+      "image": "/images/alcon_vivity_cover.jpg",
+      "description": "A Clareon Vivity é a primeira e única lente intraocular EDOF não-difrativa que oferece visão de longe de qualidade monofocal com excelente visão intermediária e funcional de perto.",
+      "keyFeatures": [
+        "Tecnologia X-WAVE não-difrativa exclusiva",
+        "Visão de longe qualidade monofocal (20/20)",
+        "Excelente visão intermediária (>20/25)",
+        "Visão de perto funcional (20/32)",
+        "Baixos distúrbios visuais (perfil monofocal)"
+      ],
+      "technology": {
+        "title": "Tecnologia X-WAVE Wavefront-Shaping",
+        "description": "Primeira e única tecnologia não-difrativa de modelagem de frente de onda que proporciona foco estendido contínuo sem usar anéis difrativos ou divisão de luz."
+      },
+      "clinicalData": {
+        "visualAcuity": "20/20 longe, >20/25 intermediária (66cm), 20/32 perto (40cm)",
+        "spectacleIndependence": "Alta independência de óculos para longe e intermediária",
+        "patientSatisfaction": "90% dos pacientes satisfeitos e fariam novamente, 93% recomendam",
+        "studies": ["Estudo clínico com 107 pacientes", "6 meses de acompanhamento", "Questionário QUVID e IOLSAT"]
+      },
+      "specifications": {
+        "material": "Clareon (Acrílico hidrofóbico avançado)",
+        "opticDiameter": "6.0 mm",
+        "overallLength": "13.0 mm",
+        "powerRange": "Astigmatismo <1.00 D",
+        "technology": "X-WAVE não-difrativa",
+        "design": "Asférico não-difrativo"
+      },
+      "advantages": [
+        "Tecnologia não-difrativa exclusiva (sem anéis)",
+        "Visão contínua sem lacunas (40cm ao infinito)",
+        "Perfil de distúrbios visuais similar a monofocal",
+        "Material Clareon com máxima clareza",
+        "Alta satisfação do paciente (90%)"
+      ],
+      "indications": [
+        "Pacientes que priorizam visão de longe e intermediária",
+        "Sensibilidade a halos e distúrbios visuais",
+        "Dirigem à noite frequentemente",
+        "Desejam perfil visual próximo a monofocal"
+      ]
+    },
+    {
+      "id": "tecnis-puresee",
+      "name": "TECNIS PureSee",
+      "presentationPath": "/presentations/puresee",
+      "manufacturer": "Johnson & Johnson",
+      "type": "EDOF",
+      "category": "Premium EDOF",
+      "tagline": "A Primeira EDOF Puramente Refrativa",
+      "image": "/images/tecnis_puresee_cover.jpg",
+      "description": "A TECNIS PureSee é a primeira e única lente intraocular EDOF 100% refrativa que oferece visão contínua de 40cm ao infinito com perfil de distúrbios visuais comparável a monofocal.",
+      "keyFeatures": [
+        "Tecnologia de Potência Contínua (Continuous-Power)",
+        "100% refrativa sem anéis difrativos",
+        "Visão contínua ininterrupta de 40cm ao infinito",
+        "Perfil de disfotopsia comparável a monofocal",
+        "Excelente visão noturna e baixo contraste"
+      ],
+      "technology": {
+        "title": "Tecnologia de Potência Contínua",
+        "description": "Design puramente refrativo com mudanças contínuas de potência que proporcionam visão ininterrupta em todas as distâncias, sem anéis difrativos ou lacunas visuais."
+      },
+      "clinicalData": {
+        "visualAcuity": "Excelente visão de longe e intermediária, boa visão funcional de perto",
+        "spectacleIndependence": "Alta taxa de independência de óculos",
+        "patientSatisfaction": "83% de alta satisfação do paciente",
+        "studies": ["Estudos clínicos Johnson & Johnson", "Publicações peer-reviewed"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico",
+        "opticDiameter": "6.0 mm",
+        "overallLength": "13.0 mm",
+        "powerRange": "+5.0 D a +34.0 D (incrementos de 0.5D)",
+        "aConstant": "119.3",
+        "design": "Refrativo de potência contínua"
+      },
+      "advantages": [
+        "Primeira EDOF 100% refrativa (sem anéis difrativos)",
+        "Visão contínua ininterrupta de 40cm ao infinito",
+        "Perfil de distúrbios visuais comparável a monofocal",
+        "Tecnologia de Potência Contínua (Continuous-Power)",
+        "Excelente visão noturna e baixo contraste"
+      ],
+      "indications": [
+        "Pacientes que priorizam visão de longe e intermediária",
+        "Sensibilidade a halos e distúrbios visuais",
+        "Dirigem à noite frequentemente",
+        "Desejam perfil visual próximo a monofocal com profundidade de foco estendida"
+      ]
+    },
+    {
+      "id": "biotech-xtense",
+      "name": "OPTIFLEX XTENSE Comfort Plus",
+      "manufacturer": "Biotech",
+      "type": "EDOF",
+      "category": "Premium EDOF",
+      "tagline": "Expandido Além do Infinito",
+      "image": "/images/biotech_xtense_cover.jpg",
+      "description": "A OPTIFLEX XTENSE Comfort Plus é uma lente intraocular EDOF 100% refrativa que oferece visão contínua completa de 40cm ao infinito com perfil monofocal de distúrbios visuais.",
+      "keyFeatures": [
+        "100% Refrativa sem anéis difrativos",
+        "Visão contínua completa de distância a perto",
+        "Perfil monofocal de distúrbios visuais",
+        "Adaptação rápida e natural",
+        "Otimização de luz superior"
+      ],
+      "technology": {
+        "title": "Design Puramente Refrativo",
+        "description": "Design asférico refrativo sem anéis difrativos que otimiza a distribuição de luz, proporcionando visão contínua em todas as distâncias com mínimos halos e glare."
+      },
+      "clinicalData": {
+        "visualAcuity": "100% distância, 95% intermediária, 90% perto (N=30 pacientes)",
+        "spectacleIndependence": "Alta taxa de independência de óculos",
+        "patientSatisfaction": "92% de alta satisfação do paciente",
+        "studies": ["Estudos clínicos Biotech", "Dados de satisfação do paciente"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico",
+        "opticDiameter": "6.0 mm",
+        "overallLength": "13.0 mm",
+        "powerRange": "+7.0 D a +30.0 D",
+        "aConstant": "119.00",
+        "design": "Asférico refrativo 6.0mm"
+      },
+      "advantages": [
+        "100% Refrativa - Sem anéis difrativos, otimiza luz",
+        "Visão Contínua Completa - De distância a perto sem lacunas",
+        "Perfil Monofocal de Distúrbios - Mínimos halos e glare",
+        "Adaptação Rápida - Pacientes se adaptam suave e rapidamente",
+        "Ampla Aplicabilidade - Adequada para diversos perfis de pacientes"
+      ],
+      "indications": [
+        "Pacientes que desejam visão contínua em todas as distâncias",
+        "Sensibilidade a halos e distúrbios visuais",
+        "Dirigem à noite frequentemente",
+        "Desejam perfil visual próximo a monofocal com profundidade de foco estendida",
+        "Procuram adaptação rápida e natural"
+      ]
+    },
+    {
+      "id": "bvi-isopure",
+      "name": "BVI ISOPURE",
+      "manufacturer": "BVI Medical",
+      "type": "Monofocal",
+      "category": "Premium Monofocal",
+      "tagline": "Pureza Óptica Absoluta",
+      "image": "/images/bvi_isopure_cover.jpg",
+      "description": "A BVI ISOPURE é uma lente intraocular monofocal premium com design asférico de alta definição e material hidrofóbico avançado que oferece qualidade óptica superior e visão nítida de longe.",
+      "keyFeatures": [
+        "Design asférico de alta definição",
+        "Material hidrofóbico avançado",
+        "Qualidade óptica superior",
+        "Visão nítida de longe",
+        "Filtro UV integrado"
+      ],
+      "technology": {
+        "title": "Design Asférico de Alta Definição",
+        "description": "Design asférico biconvexo que reduz aberrações esféricas, proporcionando maior contraste, nitidez excepcional e melhor visão em baixa luminosidade."
+      },
+      "clinicalData": {
+        "visualAcuity": "95% acuidade visual de longe 20/20 (N=50 pacientes)",
+        "spectacleIndependence": "88% independência de óculos para distância",
+        "patientSatisfaction": "92% de alta satisfação do paciente",
+        "studies": ["Estudo de 6 meses pós-operatório", "Dados de satisfação do paciente"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico",
+        "opticDiameter": "6.0 mm",
+        "overallLength": "13.0 mm",
+        "powerRange": "+10.0 D a +30.0 D",
+        "aConstant": "118.7",
+        "design": "Biconvexo asférico"
+      },
+      "advantages": [
+        "Design Asférico - Redução de aberrações esféricas",
+        "Material Hidrofóbico Avançado - Biocompatibilidade superior",
+        "Qualidade Óptica Excepcional - Visão nítida de longe",
+        "Adaptação Rápida - Recuperação visual acelerada",
+        "Estabilidade de Longo Prazo - Resistência a depósitos"
+      ],
+      "indications": [
+        "Pacientes que desejam visão de longe de alta qualidade",
+        "Não necessitam visão de perto sem óculos",
+        "Dirigem frequentemente",
+        "Desejam qualidade óptica superior",
+        "Procuram lente monofocal premium com mínimas aberrações"
+      ]
+    },
+    {
+      "id": "tecnis-toric",
+      "name": "TECNIS Toric ZCT",
+      "manufacturer": "Johnson & Johnson",
+      "type": "Monofocal Tórica",
+      "tagline": "Correção de Astigmatismo de Precisão",
+      "image": "/images/tecnis_toric_cover.jpg",
+      "description": "A TECNIS Toric ZCT é uma lente intraocular monofocal tórica que corrige astigmatismo corneano de 0.75D a 2.75D, proporcionando visão nítida de longe com tecnologia Wavefront-Designed única que reduz aberrações esféricas e melhora a qualidade visual em todas as condições de iluminação.",
+      "keyFeatures": [
+        "Tecnologia Wavefront-Designed - Redução de aberrações esféricas",
+        "5 Potências Cilíndricas - 1.00D a 4.00D no plano da LIO",
+        "Estabilidade Rotacional Superior - Design de hápticos otimizado",
+        "Calculadora Tórica Online - Ferramenta gratuita de cálculo",
+        "Material Acrílico Hidrofóbico - Biocompatibilidade comprovada"
+      ],
+      "technology": {
+        "title": "Tecnologia Wavefront-Designed",
+        "description": "Design óptico avançado que reduz aberrações esféricas e melhora a qualidade visual em todas as condições de iluminação, proporcionando visão nítida de longe com correção precisa de astigmatismo."
+      },
+      "clinicalData": {
+        "visualAcuity": "Excelente acuidade visual de longe com correção de astigmatismo",
+        "rotationalStability": "Alta estabilidade rotacional - <5° de rotação pós-operatória",
+        "patientSatisfaction": "94% de satisfação do paciente",
+        "studies": ["Estudos clínicos TECNIS", "Publicações peer-reviewed"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico",
+        "opticDiameter": "6.0 mm",
+        "overallLength": "13.0 mm",
+        "powerRange": "+5.0 D a +34.0 D",
+        "cylinderRange": "1.00D a 4.00D (no plano da LIO)",
+        "aConstant": "119.3"
+      },
+      "advantages": [
+        "Correção precisa de astigmatismo",
+        "Tecnologia Wavefront-Designed",
+        "Alta estabilidade rotacional",
+        "5 potências cilíndricas disponíveis",
+        "Calculadora tórica online gratuita"
+      ],
+      "features": [
+        "Tecnologia Wavefront-Designed - Redução de aberrações esféricas",
+        "5 Potências Cilíndricas - 1.00D a 4.00D no plano da LIO",
+        "Estabilidade Rotacional Superior - Design de hápticos otimizado",
+        "Calculadora Tórica Online - Ferramenta gratuita de cálculo",
+        "Material Acrílico Hidrofóbico - Biocompatibilidade comprovada",
+        "Borda ProTEC Fosca 360° - Redução de PCO"
+      ],
+      "indications": [
+        "Pacientes com astigmatismo corneano ≥1.0D",
+        "Desejam visão nítida de longe sem óculos",
+        "Dirigem frequentemente",
+        "Necessitam correção precisa de astigmatismo",
+        "Procuram qualidade visual superior em todas as condições de luz"
+      ]
+    },
+    {
+      "id": "tecnis-asferica",
+      "name": "TECNIS Asférica",
+      "manufacturer": "Johnson & Johnson",
+      "type": "Monofocal Asférica",
+      "tagline": "Visão de Alta Definição",
+      "image": "/images/covers/tecnis-asferica.png",
+      "description": "A TECNIS Asférica é uma lente intraocular monofocal com tecnologia Wavefront-Designed única que reduz aberrações esféricas, proporcionando visão de alta definição com melhor contraste, redução de halos noturnos e qualidade visual superior em todas as condições de iluminação.",
+      "keyFeatures": [
+        "Tecnologia Wavefront-Designed única",
+        "Redução de aberrações esféricas (-0.27 μm)",
+        "Melhor contraste e visão noturna",
+        "95% acuidade visual 20/20 ou melhor",
+        "Material hidrofóbico de qualidade"
+      ],
+      "technology": {
+        "title": "Tecnologia Wavefront-Designed",
+        "description": "Design óptico asférico avançado baseado em análise de frente de onda que reduz aberrações esféricas do sistema óptico total, proporcionando melhor contraste, redução de halos e qualidade visual superior."
+      },
+      "clinicalData": {
+        "visualAcuity": "95% acuidade visual 20/20 ou melhor",
+        "contrast": "Melhor sensibilidade ao contraste vs lentes esféricas",
+        "patientSatisfaction": "96% de satisfação do paciente",
+        "studies": ["Estudos clínicos TECNIS", "Publicações peer-reviewed"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico",
+        "opticDiameter": "6.0 mm",
+        "powerRange": "+5.0 D a +34.0 D",
+        "aberration": "-0.27 μm",
+        "aConstant": "119.3",
+        "uvFilter": "Sim",
+        "incision": "2.2-2.8 mm"
+      },
+      "advantages": [
+        "Tecnologia Wavefront-Designed única",
+        "Redução de aberrações esféricas",
+        "Melhor contraste e visão noturna",
+        "Alta satisfação do paciente (96%)",
+        "Material hidrofóbico de qualidade"
+      ],
+      "indications": [
+        "Pacientes que desejam visão de longe de alta qualidade",
+        "Dirigem à noite frequentemente",
+        "Desejam melhor contraste e redução de halos",
+        "Procuram qualidade óptica superior",
+        "Necessitam visão de alta definição"
+      ]
+    }
+  ]
+}

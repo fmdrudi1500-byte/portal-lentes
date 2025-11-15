@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Solução FullRange</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .page-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 36px;
+        }
+        .hero-statement {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            color: #2c3e50;
+            font-size: 48px;
+            line-height: 1.2;
+            text-align: center;
+        }
+        .gold-highlight {
+            color: #c9a961;
+        }
+        .benefit-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 20px;
+            text-align: center;
+        }
+        .benefit-text {
+            font-family: 'Open Sans', sans-serif;
+            color: #34495e;
+            font-size: 16px;
+            text-align: center;
+            line-height: 1.5;
+        }
+        .icon-circle {
+            width: 70px;
+            height: 70px;
+            border: 3px solid #c9a961;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+        }
+        .icon-circle i {
+            font-size: 32px;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col p-12">
+        <!-- Title -->
+        <div class="mb-6">
+            <h1 class="page-title">A Solução FullRange</h1>
+            <div class="w-24 h-1 bg-gradient-to-r from-yellow-600 to-blue-900 mt-4"></div>
+        </div>
+        
+        <!-- Hero Statement -->
+        <div class="flex-1 flex flex-col justify-center items-center">
+            <p class="hero-statement mb-4">
+                Visão <span class="gold-highlight">Contínua</span><br>
+                em Todas as Distâncias
+            </p>
+            
+            <div class="w-3/4 mb-6">
+                <img src="/home/ubuntu/hanita_presentation/images/generated_technology_concept.png" 
+                     alt="Tecnologia FullRange" 
+                     class="object-contain mx-auto"
+                     style="max-height: 200px;">
+            </div>
+        
+            <!-- Three Benefits Grid -->
+            <div class="grid grid-cols-3 gap-6 w-full">
+                <div>
+                    <div class="icon-circle">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3 class="benefit-title mb-2">Tecnologia Difrativa Avançada</h3>
+                    <p class="benefit-text">Zonas difrativas apodizadas criam múltiplos focos simultâneos com transições suaves</p>
+                </div>
+                
+                <div>
+                    <div class="icon-circle">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="benefit-title mb-2">Sem Gaps Visuais</h3>
+                    <p class="benefit-text">Curva de desfoco contínua elimina zonas mortas entre perto, intermediário e longe</p>
+                </div>
+                
+                <div>
+                    <div class="icon-circle">
+                        <i class="fas fa-glasses" style="text-decoration: line-through;"></i>
+                    </div>
+                    <h3 class="benefit-title mb-2">Independência Total</h3>
+                    <p class="benefit-text">92% dos pacientes alcançam liberdade completa de óculos em todas as atividades</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

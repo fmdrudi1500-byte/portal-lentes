@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Solução Intensity Pentafocal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 720px;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #ffffff;
+            padding: 60px 100px;
+            display: flex;
+            gap: 60px;
+        }
+        
+        .left-content {
+            flex: 1.2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .accent-bar {
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, #c9a961 0%, #4a90e2 100%);
+            margin-bottom: 25px;
+        }
+        
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 52px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .subtitle {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            font-weight: 400;
+            color: #4a90e2;
+            margin-bottom: 40px;
+            line-height: 1.3;
+        }
+        
+        .benefits-list {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        
+        .benefit-item {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        
+        .benefit-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #4a90e2, #2c5282);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 28px;
+        }
+        
+        .benefit-content {
+            flex: 1;
+        }
+        
+        .benefit-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 8px;
+        }
+        
+        .benefit-description {
+            font-size: 17px;
+            color: #2c3e50;
+            line-height: 1.5;
+        }
+        
+        .right-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .lens-image {
+            width: 100%;
+            max-width: 480px;
+            height: auto;
+            margin-bottom: 25px;
+        }
+        
+        .image-caption {
+            text-align: center;
+            font-size: 16px;
+            color: #4a90e2;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="left-content">
+            <div class="accent-bar"></div>
+            <h1 class="title">A Solução Intensity Pentafocal</h1>
+            <h2 class="subtitle">Visão Contínua em Todas as Distâncias</h2>
+            
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <div class="benefit-icon">5️⃣</div>
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">5 Focos Distribuídos Simetricamente</h3>
+                        <p class="benefit-description">
+                            Cinco pontos focais estrategicamente posicionados proporcionam visão contínua e natural de infinito até 40 cm, cobrindo todas as necessidades visuais diárias.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">📊</div>
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Sem Gaps Visuais</h3>
+                        <p class="benefit-description">
+                            Curva de desfoco plana e contínua elimina zonas de transição desconfortáveis, garantindo clareza visual em qualquer distância sem interrupções.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">💡</div>
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Tecnologia DLU Proprietária</h3>
+                        <p class="benefit-description">
+                            Dynamic Light Utilization maximiza a eficiência luminosa com 46% menos perda de energia, resultando em visão mais brilhante e nítida.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-content">
+            <img src="/home/ubuntu/intensity_presentation/images/intensity_5foci.png" alt="Intensity 5 Focos Pentafocal" class="lens-image">
+            <p class="image-caption">
+                Distribuição simétrica dos 5 focos ao redor da ordem zero<br>para visão contínua e equilibrada
+            </p>
+        </div>
+    </div>
+</body>
+</html>

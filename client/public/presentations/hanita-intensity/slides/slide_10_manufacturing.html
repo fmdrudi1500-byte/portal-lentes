@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabricação de Precisão</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 720px;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #ffffff;
+            padding: 60px 100px;
+            display: flex;
+            gap: 60px;
+        }
+        
+        .left-content {
+            flex: 1.2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .accent-bar {
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, #c9a961 0%, #4a90e2 100%);
+            margin-bottom: 25px;
+        }
+        
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 25px;
+            line-height: 1.2;
+        }
+        
+        .description {
+            font-size: 18px;
+            color: #2c3e50;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+        
+        .feature-box {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            padding: 35px 40px;
+            display: flex;
+            align-items: flex-start;
+            gap: 25px;
+        }
+        
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #4a90e2, #2c5282);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 28px;
+        }
+        
+        .feature-content {
+            flex: 1;
+        }
+        
+        .feature-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 26px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 12px;
+        }
+        
+        .feature-text {
+            font-size: 17px;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+        
+        .right-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .process-image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            object-fit: contain;
+            margin-bottom: 25px;
+        }
+        
+        .image-caption {
+            text-align: center;
+            font-size: 15px;
+            color: #4a90e2;
+            font-weight: 600;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="left-content">
+            <div class="accent-bar"></div>
+            <h1 class="title">Fabricação de Precisão</h1>
+            
+            <p class="description">
+                A Intensity é fabricada através de um <strong>processo de torno proprietário</strong> desenvolvido pela Hanita para garantir máxima precisão do perfil da lente e seus anéis difrativos, sem necessidade de polimento adicional.
+            </p>
+            
+            <div class="feature-box">
+                <div class="feature-icon">🔬</div>
+                <div class="feature-content">
+                    <h3 class="feature-title">Precisão Micrométrica</h3>
+                    <p class="feature-text">
+                        O processo de torno atinge precisão em escala micrométrica, criando uma réplica idêntica do design óptico teórico. Esta precisão extrema garante máxima sensibilidade ao contraste e reproduz fielmente os 12 degraus difrativos que formam os 5 focos da Intensity.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-content">
+            <img src="/home/ubuntu/intensity_presentation/images/intensity_zones.png" alt="Precisão da fabricação Intensity" class="process-image">
+            <p class="image-caption">
+                Perfil óptico com 12 degraus difrativos<br>fabricados com precisão micrométrica
+            </p>
+        </div>
+    </div>
+</body>
+</html>

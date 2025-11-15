@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precisão Refrativa</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .page-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 36px;
+        }
+        .stat-number {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            color: #c9a961;
+            font-size: 56px;
+            line-height: 1;
+        }
+        .stat-label {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 18px;
+        }
+        .stat-description {
+            font-family: 'Open Sans', sans-serif;
+            color: #34495e;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            border-left: 5px solid #c9a961;
+            padding: 24px;
+            min-height: 140px;
+        }
+        .secondary-stat {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #3498db;
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col p-16">
+        <!-- Title -->
+        <div class="mb-8">
+            <h1 class="page-title">Precisão Refrativa</h1>
+            <div class="w-24 h-1 bg-gradient-to-r from-yellow-600 to-blue-900 mt-4"></div>
+        </div>
+        
+        <!-- Content Grid -->
+        <div class="flex gap-10 items-center" style="min-height: 550px;">
+            <!-- Left: Chart -->
+            <div class="w-3/5 flex items-center justify-center">
+                <img src="/home/ubuntu/hanita_presentation/images/chart_refractive_accuracy.png" 
+                     alt="Gráfico de precisão refrativa" 
+                     class="object-contain"
+                     style="max-height: 520px; width: 100%;">
+            </div>
+            
+            <!-- Right: Statistics -->
+            <div class="w-2/5 flex flex-col justify-evenly gap-6">
+                <!-- Main Stat -->
+                <div class="highlight-box">
+                    <p class="stat-number mb-2">82.9%</p>
+                    <p class="stat-label mb-3">Dentro de ±0.50 D</p>
+                    <p class="stat-description">Mais de 8 em cada 10 olhos alcançam precisão refrativa excepcional, demonstrando alta previsibilidade cirúrgica.</p>
+                </div>
+                
+                <!-- Secondary Stats -->
+                <div class="highlight-box">
+                    <p class="secondary-stat mb-2">54.2%</p>
+                    <p class="stat-label mb-2">Dentro de ±0.25 D</p>
+                    <p class="stat-description">Mais da metade dos olhos atinge precisão ultra-refinada.</p>
+                </div>
+                
+                <div class="highlight-box">
+                    <p class="secondary-stat mb-2">97.1%</p>
+                    <p class="stat-label mb-2">Dentro de ±1.00 D</p>
+                    <p class="stat-description">Resultados previsíveis e consistentes em quase todos os casos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

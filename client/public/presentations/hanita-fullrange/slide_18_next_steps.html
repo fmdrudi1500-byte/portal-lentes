@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Próximos Passos</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .page-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 36px;
+        }
+        .step-number {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            color: #c9a961;
+            font-size: 48px;
+            line-height: 1;
+            text-align: center;
+        }
+        .step-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        .step-text {
+            font-family: 'Open Sans', sans-serif;
+            color: #34495e;
+            font-size: 15px;
+            text-align: center;
+            line-height: 1.5;
+        }
+        .step-box {
+            background: #f8f9fa;
+            padding: 24px;
+            min-height: 240px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .arrow-connector {
+            color: #c9a961;
+            font-size: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .contact-section {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            padding: 24px;
+            color: white;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+        }
+        .contact-icon {
+            color: #c9a961;
+            font-size: 24px;
+        }
+        .cta-text {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #c9a961;
+            font-size: 24px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col p-16">
+        <!-- Title -->
+        <div class="mb-8">
+            <h1 class="page-title">Próximos Passos</h1>
+            <div class="w-24 h-1 bg-gradient-to-r from-yellow-600 to-blue-900 mt-4"></div>
+        </div>
+        
+        <!-- Roadmap: 3 Steps -->
+        <div class="flex items-center gap-4 mb-8">
+            <!-- Step 1 -->
+            <div class="flex-1 step-box">
+                <p class="step-number mb-4">1</p>
+                <div class="w-16 h-16 bg-gradient-to-br from-blue-900 to-blue-600 flex items-center justify-center mb-4">
+                    <i class="fas fa-graduation-cap" style="color: #c9a961; font-size: 32px;"></i>
+                </div>
+                <h3 class="step-title">Treinamento</h3>
+                <p class="step-text">Participar de workshops e webinars, estudar materiais educacionais, dominar calculadoras e ferramentas de suporte</p>
+            </div>
+            
+            <!-- Arrow -->
+            <div class="arrow-connector">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            
+            <!-- Step 2 -->
+            <div class="flex-1 step-box">
+                <p class="step-number mb-4">2</p>
+                <div class="w-16 h-16 bg-gradient-to-br from-blue-900 to-blue-600 flex items-center justify-center mb-4">
+                    <i class="fas fa-user-md" style="color: #c9a961; font-size: 32px;"></i>
+                </div>
+                <h3 class="step-title">Primeiros Casos</h3>
+                <p class="step-text">Identificar pacientes ideais, acompanhar primeiras cirurgias, coletar feedback e ajustar abordagem de vendas</p>
+            </div>
+            
+            <!-- Arrow -->
+            <div class="arrow-connector">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            
+            <!-- Step 3 -->
+            <div class="flex-1 step-box">
+                <p class="step-number mb-4">3</p>
+                <div class="w-16 h-16 bg-gradient-to-br from-blue-900 to-blue-600 flex items-center justify-center mb-4">
+                    <i class="fas fa-chart-line" style="color: #c9a961; font-size: 32px;"></i>
+                </div>
+                <h3 class="step-title">Expansão</h3>
+                <p class="step-text">Aumentar volume de casos, compartilhar histórias de sucesso, construir reputação e gerar referências orgânicas</p>
+            </div>
+        </div>
+        
+        <!-- Call to Action -->
+        <div class="mb-6 text-center">
+            <p class="cta-text">
+                <i class="fas fa-handshake" style="margin-right: 12px;"></i>
+                Vamos Começar Juntos!
+            </p>
+        </div>
+        
+        <!-- Contact Information -->
+        <div class="contact-section">
+            <div class="grid grid-cols-3 gap-8">
+                <div class="contact-item justify-center">
+                    <i class="fas fa-phone contact-icon"></i>
+                    <span>+55 (11) 0000-0000</span>
+                </div>
+                
+                <div class="contact-item justify-center">
+                    <i class="fas fa-envelope contact-icon"></i>
+                    <span>contato@hanita.com.br</span>
+                </div>
+                
+                <div class="contact-item justify-center">
+                    <i class="fas fa-globe contact-icon"></i>
+                    <span>www.hanitalenses.com</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Supporting Image -->
+        <div class="mt-6 flex justify-center">
+            <img src="/home/ubuntu/hanita_presentation/images/generated_next_steps.png" 
+                 alt="Roadmap de implementação" 
+                 class="object-contain"
+                 style="max-height: 100px;">
+        </div>
+    </div>
+</body>
+</html>

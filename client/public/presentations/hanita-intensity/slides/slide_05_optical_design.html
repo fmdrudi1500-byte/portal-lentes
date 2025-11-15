@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Óptico Pentafocal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 720px;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #ffffff;
+            padding: 60px 80px;
+            display: flex;
+            gap: 60px;
+        }
+        
+        .left-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .optical-image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            object-fit: contain;
+        }
+        
+        .image-caption {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #4a90e2;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .right-section {
+            flex: 1.2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .accent-bar {
+            width: 80px;
+            height: 5px;
+            background: linear-gradient(90deg, #c9a961 0%, #4a90e2 100%);
+            margin-bottom: 25px;
+        }
+        
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .description {
+            font-size: 18px;
+            color: #2c3e50;
+            line-height: 1.6;
+            margin-bottom: 35px;
+        }
+        
+        .specs-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .spec-item {
+            background: #f8f9fa;
+            padding: 20px;
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .spec-label {
+            font-size: 14px;
+            color: #4a90e2;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+        
+        .spec-value {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        
+        .spec-detail {
+            font-size: 15px;
+            color: #2c3e50;
+            line-height: 1.4;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            padding: 20px 25px;
+            margin-top: 10px;
+        }
+        
+        .highlight-text {
+            font-size: 16px;
+            color: #1e3a5f;
+            line-height: 1.5;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="left-section">
+            <img src="/home/ubuntu/intensity_presentation/images/intensity_5foci.png" alt="Design Óptico Pentafocal" class="optical-image">
+            <p class="image-caption">5 Focos Distribuídos Simetricamente</p>
+        </div>
+        
+        <div class="right-section">
+            <div class="accent-bar"></div>
+            <h1 class="title">Design Óptico Pentafocal</h1>
+            <p class="description">
+                A Intensity apresenta um design óptico revolucionário com <strong>12 degraus difrativos suaves</strong> de diferentes alturas, criando <strong>5 focos simétricos</strong> para visão contínua e ininterrupta.
+            </p>
+            
+            <div class="specs-grid">
+                <div class="spec-item">
+                    <div class="spec-label">Focos</div>
+                    <div class="spec-value">5 Focos</div>
+                    <div class="spec-detail">Distribuição simétrica ao redor da ordem zero</div>
+                </div>
+                
+                <div class="spec-item">
+                    <div class="spec-label">Degraus Difrativos</div>
+                    <div class="spec-value">12 Degraus</div>
+                    <div class="spec-detail">Transições suaves entre pontos focais</div>
+                </div>
+                
+                <div class="spec-item">
+                    <div class="spec-label">Anel Central</div>
+                    <div class="spec-value">1 mm</div>
+                    <div class="spec-detail">Diâmetro otimizado para máxima eficiência</div>
+                </div>
+                
+                <div class="spec-item">
+                    <div class="spec-label">Altura Máxima</div>
+                    <div class="spec-value">3.6 μm</div>
+                    <div class="spec-detail">Precisão em escala micrométrica</div>
+                </div>
+            </div>
+            
+            <div class="highlight-box">
+                <p class="highlight-text">
+                    ✓ Visão contínua de <strong>infinito a 40 cm</strong> sem gaps<br>
+                    ✓ Transições suaves entre todas as distâncias<br>
+                    ✓ Otimização de abertura pupilar para diferentes condições de luz
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FullRange vs. Concorrentes</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .page-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 36px;
+            text-align: center;
+        }
+        .column-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .fullrange-title {
+            color: #2c3e50;
+        }
+        .competitor-title {
+            color: #7f8c8d;
+        }
+        .feature-item {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 17px;
+            line-height: 1.4;
+            padding: 12px 18px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        .fullrange-feature {
+            background: #f0f7ff;
+            color: #2c3e50;
+        }
+        .competitor-feature {
+            background: #f5f5f5;
+            color: #7f8c8d;
+        }
+        .check-icon {
+            color: #c9a961;
+            font-size: 22px;
+            min-width: 22px;
+        }
+        .x-icon {
+            color: #e74c3c;
+            font-size: 22px;
+            min-width: 22px;
+        }
+        .divider-line {
+            width: 2px;
+            background: linear-gradient(180deg, #2c3e50 0%, #c9a961 50%, #2c3e50 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col p-10">
+        <!-- Title -->
+        <div class="mb-5">
+            <h1 class="page-title">FullRange vs. Concorrentes</h1>
+            <div class="w-24 h-1 bg-gradient-to-r from-yellow-600 to-blue-900 mt-3 mx-auto"></div>
+        </div>
+        
+        <!-- Comparison Image -->
+        <div class="mb-4 flex justify-center">
+            <img src="/home/ubuntu/hanita_presentation/images/generated_comparison_table.png" 
+                 alt="Comparação visual FullRange vs Concorrentes" 
+                 class="object-contain"
+                 style="max-height: 140px;">
+        </div>
+        
+        <!-- Two Column Comparison -->
+        <div class="flex gap-0 flex-1">
+            <!-- FullRange Column -->
+            <div class="w-1/2 pr-5">
+                <h2 class="column-title fullrange-title">Hanita FullRange</h2>
+                
+                <div class="feature-item fullrange-feature">
+                    <i class="fas fa-check-circle check-icon"></i>
+                    <span><strong>Visão Contínua:</strong> Sem gaps entre focos, transições suaves em todas as distâncias</span>
+                </div>
+                
+                <div class="feature-item fullrange-feature">
+                    <i class="fas fa-check-circle check-icon"></i>
+                    <span><strong>Baixa Incidência de Halos:</strong> Apenas 5% relatam halos severos, tecnologia apodizada reduz fenômenos fóticos</span>
+                </div>
+                
+                <div class="feature-item fullrange-feature">
+                    <i class="fas fa-check-circle check-icon"></i>
+                    <span><strong>Contraste Preservado:</strong> Sensibilidade ao contraste mantida, apenas 3% de perda reportada</span>
+                </div>
+                
+                <div class="feature-item fullrange-feature">
+                    <i class="fas fa-check-circle check-icon"></i>
+                    <span><strong>Alta Tolerância:</strong> Excelente performance mesmo com pequenos desalinhamentos ou descentrações</span>
+                </div>
+            </div>
+            
+            <!-- Divider -->
+            <div class="divider-line"></div>
+            
+            <!-- Competitor Column -->
+            <div class="w-1/2 pl-5">
+                <h2 class="column-title competitor-title">Lentes Multifocais Convencionais</h2>
+                
+                <div class="feature-item competitor-feature">
+                    <i class="fas fa-times-circle x-icon"></i>
+                    <span><strong>Gaps Visuais:</strong> Descontinuidades entre focos, zonas de visão comprometida no intermediário</span>
+                </div>
+                
+                <div class="feature-item competitor-feature">
+                    <i class="fas fa-times-circle x-icon"></i>
+                    <span><strong>Halos Frequentes:</strong> Até 18% relatam halos severos, impactando direção noturna e qualidade de vida</span>
+                </div>
+                
+                <div class="feature-item competitor-feature">
+                    <i class="fas fa-times-circle x-icon"></i>
+                    <span><strong>Perda de Contraste:</strong> Até 15% experimentam redução significativa na sensibilidade ao contraste</span>
+                </div>
+                
+                <div class="feature-item competitor-feature">
+                    <i class="fas fa-times-circle x-icon"></i>
+                    <span><strong>Sensível ao Desalinhamento:</strong> Performance comprometida com pequenas descentrações ou tilts</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

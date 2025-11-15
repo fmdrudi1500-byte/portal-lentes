@@ -1,0 +1,476 @@
+{
+  "lenses": [
+    {
+      "id": "hanita-intensity",
+      "name": "Hanita Intensity",
+      "manufacturer": "Hanita Lenses",
+      "type": "Trifocal",
+      "category": "Premium Multifocal",
+      "tagline": "Nova geração de IOLs corretivas",
+      "image": "/images/hanita_intensity.jpg",
+      "description": "A Intensity é uma lente intraocular trifocal de última geração que oferece visão nítida em todas as distâncias com tecnologia difrativa apodizada avançada.",
+      "keyFeatures": [
+        "Tecnologia difrativa apodizada avançada",
+        "Visão trifocal completa (longe, intermediário, perto)",
+        "Material hidrofóbico premium",
+        "Design de háptico otimizado",
+        "Baixo índice de distúrbios visuais"
+      ],
+      "technology": {
+        "title": "Tecnologia Difrativa Apodizada",
+        "description": "Design óptico avançado que distribui a luz de forma otimizada entre os três focos principais, proporcionando visão contínua e natural."
+      },
+      "clinicalData": {
+        "visualAcuity": "Excelente acuidade visual em todas as distâncias",
+        "spectacleIndependence": "Alta taxa de independência de óculos",
+        "patientSatisfaction": "Elevada satisfação do paciente",
+        "studies": ["Estudos clínicos Hanita", "Publicações peer-reviewed"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico",
+        "opticDiameter": "6.0 mm",
+        "overallLength": "13.0 mm",
+        "powerRange": "+10.0 D a +30.0 D",
+        "aConstant": "118.5"
+      },
+      "advantages": [
+        "Visão trifocal completa",
+        "Tecnologia difrativa apodizada",
+        "Alta qualidade óptica",
+        "Baixos distúrbios visuais",
+        "Material premium"
+      ],
+      "indications": [
+        "Pacientes que desejam independência total de óculos",
+        "Estilo de vida ativo",
+        "Necessidade de visão em todas as distâncias"
+      ]
+    },
+    {
+      "id": "hanita-fullrange",
+      "name": "Hanita FullRange",
+      "manufacturer": "Hanita Lenses",
+      "type": "EDOF Trifocal",
+      "category": "Extended Depth of Focus",
+      "tagline": "Excelência em Visão Multifocal",
+      "image": "/images/hanita_fullrange.png",
+      "description": "A FullRange combina tecnologia EDOF com design trifocal para proporcionar visão contínua e natural em todas as distâncias com mínimos distúrbios visuais.",
+      "keyFeatures": [
+        "Tecnologia difrativa apodizada única",
+        "Visão contínua de longe a perto",
+        "92% de independência de óculos",
+        "95% de satisfação sustentada após 2 anos",
+        "Redução de 64% em complicações vs concorrentes"
+      ],
+      "technology": {
+        "title": "Tecnologia Difrativa Apodizada EDOF",
+        "description": "Design óptico exclusivo que proporciona profundidade de foco estendida com transição suave entre todas as distâncias visuais."
+      },
+      "clinicalData": {
+        "visualAcuity": "20/20 em todas as distâncias",
+        "refractiveAccuracy": "82.9% dentro de ±0.50 D",
+        "spectacleIndependence": "92% dos pacientes",
+        "longTermSatisfaction": "95% após 2 anos",
+        "complications": "64% menos complicações",
+        "studies": ["Estudo Bianchi (2019)", "Estudos Intensity vs PanOptix"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico",
+        "opticDiameter": "6.0 mm",
+        "overallLength": "12.5-13.0 mm",
+        "powerRange": "+10.0 D a +32.0 D",
+        "aConstant": "118.7",
+        "hapticOptions": ["C-Loop", "Plate", "Toric"]
+      },
+      "advantages": [
+        "Visão contínua sem gaps",
+        "Alta independência de óculos (92%)",
+        "Satisfação sustentada (95% após 2 anos)",
+        "Perfil de segurança superior (64% menos complicações)",
+        "Superioridade vs PanOptix em estudos Intensity",
+        "Múltiplas opções de hápticos"
+      ],
+      "indications": [
+        "Pacientes que desejam visão natural contínua",
+        "Independência de óculos para todas as atividades",
+        "Perfil de segurança superior",
+        "Estilo de vida moderno e ativo"
+      ],
+      "references": [
+        "Bianchi GR. Clinical outcomes of a new extended range of vision intraocular lens. J Refract Surg. 2019.",
+        "Hanita Intensity Studies comparing FullRange vs PanOptix"
+      ]
+    },
+    {
+      "id": "alcon-vivity",
+      "name": "Alcon Vivity",
+      "manufacturer": "Alcon",
+      "type": "EDOF",
+      "category": "Extended Depth of Focus",
+      "tagline": "Visão Contínua Sem Comprometer",
+      "image": "/images/alcon_vivity.jpg",
+      "description": "A Vivity utiliza tecnologia X-WAVE não-difrativa para proporcionar visão contínua de longe a intermediário com perfil de distúrbios visuais similar a monofocais.",
+      "keyFeatures": [
+        "Tecnologia X-WAVE não-difrativa",
+        "Visão contínua de longe a intermediário",
+        "Perfil de distúrbios visuais similar a monofocal",
+        "Sem anéis difrativos",
+        "Qualidade de visão superior"
+      ],
+      "technology": {
+        "title": "Tecnologia X-WAVE",
+        "description": "Design óptico não-difrativo que estende a profundidade de foco sem comprometer a qualidade visual ou induzir halos e glare significativos."
+      },
+      "clinicalData": {
+        "visualAcuity": "Excelente visão de distância e intermediária",
+        "contrastSensitivity": "Mantida comparável a monofocais",
+        "dysphotopsia": "Baixo perfil de halos e glare",
+        "spectacleIndependence": "Alta para distância e intermediário",
+        "studies": ["Estudos clínicos Alcon", "Comparações com EDOF difrativos"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico",
+        "opticDiameter": "6.0 mm",
+        "overallLength": "13.0 mm",
+        "powerRange": "+10.0 D a +30.0 D",
+        "aConstant": "119.0"
+      },
+      "advantages": [
+        "Tecnologia não-difrativa (sem anéis)",
+        "Perfil de distúrbios visuais favorável",
+        "Visão contínua de longe a intermediário",
+        "Qualidade de visão mantida",
+        "Sensibilidade ao contraste preservada"
+      ],
+      "indications": [
+        "Pacientes que desejam visão intermediária melhorada",
+        "Perfil de distúrbios visuais baixo",
+        "Uso intenso de computador e dispositivos digitais",
+        "Pacientes sensíveis a halos e glare"
+      ]
+    },
+    {
+      "id": "jj-puresee",
+      "name": "TECNIS PureSee",
+      "manufacturer": "Johnson & Johnson",
+      "type": "EDOF",
+      "category": "Extended Depth of Focus",
+      "tagline": "Visão Pura e Natural",
+      "image": "/images/jj_puresee_2.png",
+      "description": "A PureSee é a mais recente IOL EDOF da J&J, projetada para proporcionar visão contínua com qualidade óptica excepcional e perfil de distúrbios visuais minimizado.",
+      "keyFeatures": [
+        "Tecnologia EDOF avançada",
+        "Visão contínua de longe a intermediário",
+        "Correção de aberrações esféricas",
+        "Plataforma TECNIS comprovada",
+        "Material sem glistenings"
+      ],
+      "technology": {
+        "title": "Tecnologia EDOF TECNIS",
+        "description": "Design óptico que estende a profundidade de foco mantendo a qualidade visual da plataforma TECNIS com correção de aberrações esféricas."
+      },
+      "clinicalData": {
+        "visualAcuity": "Excelente visão de distância e intermediária",
+        "contrastSensitivity": "Alta sensibilidade ao contraste",
+        "spectacleIndependence": "Alta para distância e intermediário",
+        "studies": ["Estudos clínicos J&J TECNIS PureSee"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico sem glistenings",
+        "opticDiameter": "6.0 mm",
+        "overallLength": "13.0 mm",
+        "powerRange": "+5.0 D a +34.0 D",
+        "aConstant": "119.3",
+        "deliverySystem": "TECNIS SIMPLICITY"
+      },
+      "advantages": [
+        "Plataforma TECNIS comprovada",
+        "Correção de aberrações esféricas",
+        "Material sem glistenings",
+        "Visão contínua EDOF",
+        "Alta sensibilidade ao contraste"
+      ],
+      "indications": [
+        "Pacientes que desejam visão intermediária melhorada",
+        "Qualidade óptica superior",
+        "Plataforma confiável e comprovada",
+        "Uso de computador e dispositivos digitais"
+      ]
+    },
+    {
+      "id": "jj-eyhance",
+      "name": "TECNIS Eyhance",
+      "manufacturer": "Johnson & Johnson",
+      "type": "Enhanced Monofocal",
+      "category": "Monofocal Plus",
+      "tagline": "Distance PLUS Without Compromise",
+      "image": "/images/jj_eyhance.jpg",
+      "description": "A Eyhance é uma lente monofocal aprimorada que proporciona até uma linha extra de acuidade visual intermediária sem comprometer a visão de distância ou qualidade visual.",
+      "keyFeatures": [
+        "Profundidade de foco estendida",
+        "Até uma linha extra de acuidade visual a 1.5D de desfoco",
+        "Melhor contraste da categoria",
+        "Visão intermediária significativamente melhorada",
+        "Perfil de distúrbios visuais similar a monofocal"
+      ],
+      "technology": {
+        "title": "Design Óptico de Aumento de Profundidade de Foco",
+        "description": "Aumento contínuo de potência da borda para o centro projetado para estender ligeiramente a profundidade de foco mantendo correção de aberrações esféricas."
+      },
+      "clinicalData": {
+        "visualAcuity": "Melhor visão intermediária que monofocal padrão (1-1.5 linhas)",
+        "contrastSensitivity": "Melhor contraste vs Acrysof IQ, Clareon, Vivinex, enVista",
+        "spectacleIndependence": "Melhorada para intermediário",
+        "patientSatisfaction": "Significativamente maior que monofocal padrão",
+        "longTerm": "Vantagem mantida após 5 anos",
+        "studies": ["Gigon et al. 2022 (31 citações)", "Fernández et al. 2025 (8 citações)", "Singh et al. 2024 (13 citações)"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico sem glistenings",
+        "opticDiameter": "6.0 mm",
+        "overallLength": "13.0 mm",
+        "powerRange": "+5.0 D a +34.0 D",
+        "aConstant": "119.3",
+        "deliverySystem": "TECNIS SIMPLICITY",
+        "toricVersion": "TECNIS Eyhance Toric II (100% ≤5° rotação)"
+      },
+      "advantages": [
+        "Profundidade de foco estendida (até 1 linha extra)",
+        "Visão intermediária superior (1-1.5 linhas melhor)",
+        "Melhor contraste da categoria",
+        "Perfil de distúrbios visuais favorável",
+        "Satisfação significativamente maior",
+        "Resultados de longo prazo (5 anos)",
+        "Versão Tórica excepcional (100% ≤5° rotação)"
+      ],
+      "indications": [
+        "Pacientes que desejam visão intermediária melhorada",
+        "Simplicidade e previsibilidade de monofocal",
+        "Uso de computador e dispositivos digitais",
+        "Perfil de distúrbios visuais baixo"
+      ],
+      "references": [
+        "Gigon et al. Real world outcomes of the new Tecnis Eyhance IOL. 2022. (31 citações)",
+        "Fernández et al. Visual and patient-reported outcomes. Nature 2025. (8 citações)",
+        "Singh et al. Comparison of visual outcomes. Indian J Ophthalmol 2024. (13 citações)"
+      ]
+    },
+    {
+      "id": "bvi-isopure",
+      "name": "BVI ISOPURE",
+      "manufacturer": "BVI Medical (PhysIOL)",
+      "type": "Enhanced Monofocal",
+      "category": "Monofocal Plus",
+      "tagline": "Premium Monofocal com Visão Intermediária Funcional",
+      "image": "/images/bvi_isopure.png",
+      "description": "A ISOPURE é uma lente monofocal premium com tecnologia isofocal que proporciona visão intermediária funcional em todas as condições sem comprometer a qualidade de visão.",
+      "keyFeatures": [
+        "Tecnologia isofocal única (totalmente refrativa)",
+        "Visão intermediária funcional melhorada",
+        "4 hápticos em loop fechado",
+        "Pré-carregada",
+        "Perfil de disfotopsia similar a monofocal"
+      ],
+      "technology": {
+        "title": "Tecnologia Isofocal",
+        "description": "Design óptico polinomial complexo patenteado, totalmente refrativo (não-difrativo), que aumenta a profundidade de foco proporcionando visão intermediária funcional."
+      },
+      "clinicalData": {
+        "visualAcuity": "Excelente visão de distância + visão intermediária funcional melhorada",
+        "contrastSensitivity": "Excelente, comparável a monofocal padrão",
+        "dysphotopsia": "Perfil similar a monofocais (tecnologia não-difrativa)",
+        "intermediateVision": "Estatisticamente superior a monofocais (cerca de 1 linha adicional)",
+        "studies": ["Ansari et al. 2024 (3 citações)", "Pérez-Sanz et al. 2023 (7 citações)", "Bova et al. 2022 (39 citações)"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico",
+        "opticDiameter": "6.0 mm",
+        "haptics": "4 closed-loop haptics",
+        "powerRange": "+6.0 D a +30.0 D",
+        "aConstant": "118.4",
+        "deliverySystem": "Sistema 1.2.3 Premium Injector (pré-carregada)"
+      },
+      "advantages": [
+        "Tecnologia isofocal única (polinomial complexa patenteada)",
+        "Totalmente refrativa (sem componentes difrativos)",
+        "Visão intermediária funcional (estatisticamente superior)",
+        "Qualidade de visão não comprometida",
+        "Simplicidade de monofocal",
+        "Perfil de disfotopsia favorável",
+        "Design de 4 hápticos (estabilidade excepcional)",
+        "Pré-carregada (conveniência)"
+      ],
+      "indications": [
+        "Pacientes que desejam melhor visão intermediária",
+        "Simplicidade e previsibilidade de monofocal",
+        "Estilo de vida moderno (computador, tablets, smartphones)",
+        "Perfil de distúrbios visuais baixo"
+      ],
+      "references": [
+        "Ansari et al. The BVI ISOPURE 123 intraocular lens. Frontiers Ophthalmol 2024. (3 citações)",
+        "Pérez-Sanz et al. Optical and Clinical Outcomes. MDPI Life Sciences 2023. (7 citações)",
+        "Bova et al. Clinical and Aberrometric Evaluation. PMC 2022. (39 citações)"
+      ]
+    },
+    {
+      "id": "jj-asferica",
+      "name": "TECNIS Monofocal Asférica",
+      "manufacturer": "Johnson & Johnson",
+      "type": "Monofocal",
+      "category": "Monofocal Asférica",
+      "tagline": "Excelência em Visão de Distância",
+      "image": "/images/jj_monofocal.jpeg",
+      "description": "A TECNIS Monofocal Asférica (ZCB00) é uma lente de uma peça com correção de aberrações esféricas que proporciona excelente acuidade visual de distância e alta sensibilidade ao contraste.",
+      "keyFeatures": [
+        "Correção de aberrações esféricas",
+        "Alta sensibilidade ao contraste mesópica",
+        "Material sem glistenings",
+        "Design de 1 peça",
+        "Borda ProTec frosted 360°"
+      ],
+      "technology": {
+        "title": "Design Asférico com Correção de Aberrações",
+        "description": "Superfície anterior asférica biconvexa que compensa aberrações esféricas corneanas para melhor qualidade de imagem."
+      },
+      "clinicalData": {
+        "visualAcuity": "Excelente acuidade visual de distância",
+        "contrastSensitivity": "Alta sensibilidade ao contraste mesópica",
+        "stability": "Refração relativamente constante ao longo do tempo",
+        "studies": ["Wahba et al. 2011 (24 citações)"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico sem glistenings",
+        "opticDiameter": "6.0 mm",
+        "overallLength": "13.0 mm",
+        "powerRange": "+5.0 D a +34.0 D (incrementos 0.5 D)",
+        "aConstant": "119.3 (óptica) / 118.8 (US)",
+        "models": "ZCB00 (não pré-carregada), DCB00/PCB00 (pré-carregadas)",
+        "deliverySystem": "TECNIS SIMPLICITY (modelos pré-carregados)"
+      },
+      "advantages": [
+        "Correção de aberrações esféricas",
+        "Material sem glistenings",
+        "Alta sensibilidade ao contraste",
+        "Design de borda ProTec frosted",
+        "Plataforma TECNIS comprovada",
+        "Qualidade de visão superior em baixa luminosidade"
+      ],
+      "indications": [
+        "Pacientes que desejam excelente visão de distância",
+        "Qualidade óptica superior",
+        "Plataforma confiável e comprovada",
+        "Casos padrão de catarata"
+      ],
+      "references": [
+        "Wahba SS et al. Visual performance of the Tecnis one-piece lens ZCB00. PMC 2011. (24 citações)"
+      ]
+    },
+    {
+      "id": "jj-torica",
+      "name": "TECNIS Toric II",
+      "manufacturer": "Johnson & Johnson",
+      "type": "Monofocal Tórica",
+      "category": "Monofocal Tórica Asférica",
+      "tagline": "Melhor Estabilidade Rotacional da Categoria",
+      "image": "/images/jj_monofocal.jpeg",
+      "description": "A TECNIS Toric II é uma lente tórica de uma peça com correção de astigmatismo e aberrações esféricas, apresentando a melhor estabilidade rotacional da categoria.",
+      "keyFeatures": [
+        "100% dos olhos com ≤5° de rotação aos 3 meses",
+        "Rotação média <1° em 1 semana, 1 mês e 3 meses",
+        "Menor probabilidade de reposicionamento",
+        "Hápticos com textura aumentada",
+        "Correção de aberrações esféricas"
+      ],
+      "technology": {
+        "title": "Plataforma TECNIS Toric II",
+        "description": "Primeira IOL na nova plataforma Toric II com mais textura e fricção de superfície nos hápticos para estabilidade rotacional excepcional."
+      },
+      "clinicalData": {
+        "rotationalStability": "100% ≤5° rotação aos 3 meses, média <1°",
+        "repositioning": "Menor taxa de reposicionamento vs AcrySof Toric, enVista Toric, TECNIS Toric I",
+        "visualAcuity": "Excelente acuidade visual de distância",
+        "astigmatismCorrection": "Correção efetiva de astigmatismo ≥1.0 D",
+        "studies": ["Hu 2023 - Clinical Ophthalmology", "DOF2021CT4019 - Steele Study"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico sem glistenings",
+        "opticDiameter": "6.0 mm",
+        "overallLength": "13.0 mm",
+        "powerRange": "+5.0 D a +34.0 D (incrementos 0.5 D)",
+        "cylinderRange": "Múltiplas opções para correção de astigmatismo",
+        "deliverySystem": "TECNIS SIMPLICITY (pré-carregada)",
+        "calculator": "TECNIS Toric Calculator disponível"
+      },
+      "advantages": [
+        "Melhor estabilidade rotacional da categoria",
+        "Menor taxa de reposicionamento",
+        "100% ≤5° rotação",
+        "Correção de aberrações esféricas",
+        "Material sem glistenings",
+        "Plataforma Toric II avançada",
+        "Hápticos com textura aumentada"
+      ],
+      "indications": [
+        "Pacientes com astigmatismo corneano ≥1.0 D",
+        "Desejo de redução de cilindro refrativo residual",
+        "Necessidade de estabilidade rotacional superior",
+        "Casos de catarata com astigmatismo"
+      ],
+      "references": [
+        "Hu EH. Repositioning Rates of Toric IOLs. Clin Ophthalmol 2023.",
+        "DOF2021CT4019 - Steele Study (NXGT-202-QROS)"
+      ]
+    },
+    {
+      "id": "jj-esferica",
+      "name": "Sensar AR40e",
+      "manufacturer": "Johnson & Johnson",
+      "type": "Monofocal Esférica",
+      "category": "Monofocal Esférica 3-Peças",
+      "tagline": "Material Mais Claro e Versatilidade",
+      "image": "/images/jj_monofocal.jpeg",
+      "description": "A Sensar AR40e é uma lente esférica de 3 peças com o material mais claro entre todas as IOLs dobráveis, oferecendo versatilidade para implantação no saco capsular ou sulco.",
+      "keyFeatures": [
+        "Material mais claro entre IOLs dobráveis",
+        "Livre de vacúolos",
+        "Design de 3 peças",
+        "OptiEdge Design",
+        "Versatilidade: saco capsular ou sulco"
+      ],
+      "technology": {
+        "title": "Design Esférico 3-Peças com OptiEdge",
+        "description": "Design esférico tradicional de 3 peças com borda otimizada OptiEdge para prevenção de opacificação de cápsula posterior."
+      },
+      "clinicalData": {
+        "opticalClarity": "Material mais claro (clearest) entre IOLs dobráveis testadas",
+        "vacuoleFree": "Livre de vacúolos",
+        "studies": ["Tuzcu et al. 2013 (2 citações)"]
+      },
+      "specifications": {
+        "material": "Acrílico hidrofóbico",
+        "design": "3-Piece",
+        "shape": "AR40e/AR40E: Biconvexo, AR40M: Meniscus",
+        "asphericity": "Esférica (sem correção de aberrações)",
+        "location": "Saco capsular ou sulco ciliar",
+        "edgeDesign": "OptiEdge"
+      },
+      "advantages": [
+        "Material mais claro (clearest)",
+        "Livre de vacúolos",
+        "Versatilidade (saco capsular ou sulco)",
+        "Design de 3 peças (flexibilidade cirúrgica)",
+        "OptiEdge Design (prevenção de PCO)",
+        "Design estabelecido e comprovado"
+      ],
+      "indications": [
+        "Casos que requerem implantação no sulco",
+        "Pacientes que necessitam IOL de 3 peças",
+        "Casos específicos com necessidade de versatilidade",
+        "Cirurgias com complicações capsulares"
+      ],
+      "references": [
+        "Tuzcu et al. Comparing the effect of two different intraocular lenses. PMC 2013. (2 citações)"
+      ]
+    }
+  ]
+}

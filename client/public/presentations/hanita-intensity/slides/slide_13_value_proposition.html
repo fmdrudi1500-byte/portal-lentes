@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta de Valor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 720px;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #ffffff;
+            padding: 50px 100px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            margin-bottom: 30px;
+        }
+        
+        .accent-bar {
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, #c9a961 0%, #4a90e2 100%);
+            margin-bottom: 20px;
+        }
+        
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1e3a5f;
+            line-height: 1.2;
+        }
+        
+        .intro-section {
+            background: linear-gradient(135deg, #1e3a5f 0%, #4a90e2 100%);
+            padding: 30px 40px;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        
+        .intro-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            font-weight: 700;
+            color: #c9a961;
+            margin-bottom: 15px;
+        }
+        
+        .intro-text {
+            font-size: 18px;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        
+        .value-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+            flex: 1;
+        }
+        
+        .value-card {
+            background: #f8f9fa;
+            padding: 35px 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .value-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #4a90e2, #2c5282);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        
+        .value-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+        
+        .value-description {
+            font-size: 16px;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+        
+        .value-highlight {
+            color: #4a90e2;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="accent-bar"></div>
+            <h1 class="title">Proposta de Valor</h1>
+        </div>
+        
+        <div class="intro-section">
+            <h2 class="intro-title">Investimento Único, Retorno Duradouro</h2>
+            <p class="intro-text">
+                A Intensity representa um investimento na qualidade de vida do paciente. Com tecnologia de ponta e resultados clínicos comprovados, oferece retorno em independência visual e satisfação sustentada por décadas.
+            </p>
+        </div>
+        
+        <div class="value-grid">
+            <div class="value-card">
+                <div class="value-icon">❤️</div>
+                <h3 class="value-title">Qualidade de Vida</h3>
+                <p class="value-description">
+                    <span class="value-highlight">Visão contínua</span> em todas as distâncias permite que seus pacientes retomem todas as atividades diárias sem limitações. Ler, trabalhar no computador, dirigir e aproveitar hobbies com <span class="value-highlight">conforto visual total</span>.
+                </p>
+            </div>
+            
+            <div class="value-card">
+                <div class="value-icon">👓</div>
+                <h3 class="value-title">Independência de Óculos</h3>
+                <p class="value-description">
+                    <span class="value-highlight">92% dos pacientes</span> alcançam independência total de óculos para todas as atividades. Liberdade visual que se traduz em <span class="value-highlight">economia</span> e <span class="value-highlight">praticidade</span> por décadas.
+                </p>
+            </div>
+            
+            <div class="value-card">
+                <div class="value-icon">🔬</div>
+                <h3 class="value-title">Tecnologia de Ponta</h3>
+                <p class="value-description">
+                    <span class="value-highlight">Tecnologia DLU patenteada</span> e design pentafocal exclusivo representam o que há de mais avançado em lentes intraoculares. Investimento em <span class="value-highlight">inovação comprovada</span> por estudos científicos.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

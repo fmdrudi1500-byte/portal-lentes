@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificações Técnicas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 720px;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #ffffff;
+            padding: 50px 100px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            margin-bottom: 35px;
+        }
+        
+        .accent-bar {
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, #c9a961 0%, #4a90e2 100%);
+            margin-bottom: 20px;
+        }
+        
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1e3a5f;
+            line-height: 1.2;
+        }
+        
+        .specs-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .spec-card {
+            background: #f8f9fa;
+            padding: 25px;
+            min-height: 160px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .spec-category {
+            font-size: 13px;
+            color: #4a90e2;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+        
+        .spec-item {
+            margin-bottom: 12px;
+        }
+        
+        .spec-label {
+            font-size: 15px;
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+        
+        .spec-value {
+            font-size: 17px;
+            color: #1e3a5f;
+            font-weight: 400;
+        }
+        
+        .power-section {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            padding: 25px 30px;
+            margin-bottom: 25px;
+        }
+        
+        .power-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 15px;
+        }
+        
+        .power-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .power-item {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .power-label {
+            font-size: 14px;
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .power-value {
+            font-size: 18px;
+            color: #1e3a5f;
+            font-weight: 700;
+        }
+        
+        .options-section {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        .option-badge {
+            text-align: center;
+            padding: 15px 25px;
+            background: #f8f9fa;
+            min-width: 180px;
+        }
+        
+        .option-icon {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        .option-label {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        
+        .option-description {
+            font-size: 14px;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="accent-bar"></div>
+            <h1 class="title">Especificações Técnicas</h1>
+        </div>
+        
+        <div class="specs-grid">
+            <div class="spec-card">
+                <div class="spec-category">Material e Design</div>
+                <div class="spec-item">
+                    <div class="spec-label">Material</div>
+                    <div class="spec-value">Acrílico hidrofóbico</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-label">Glistening</div>
+                    <div class="spec-value">Livre de glistening</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-label">Índice Refrativo</div>
+                    <div class="spec-value">1.48 (@ 35°C)</div>
+                </div>
+            </div>
+            
+            <div class="spec-card">
+                <div class="spec-category">Parâmetros Ópticos</div>
+                <div class="spec-item">
+                    <div class="spec-label">Design Óptico</div>
+                    <div class="spec-value">Pentafocal</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-label">Superfície Posterior</div>
+                    <div class="spec-value">Asférica - Difrativa</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-label">Superfície Anterior</div>
+                    <div class="spec-value">Esférica/Tórica</div>
+                </div>
+            </div>
+            
+            <div class="spec-card">
+                <div class="spec-category">Dimensões</div>
+                <div class="spec-item">
+                    <div class="spec-label">Diâmetro Óptico</div>
+                    <div class="spec-value">6.0 mm</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-label">Comprimento Total</div>
+                    <div class="spec-value">13.0 mm</div>
+                </div>
+                <div class="spec-item">
+                    <div class="spec-label">Constante A</div>
+                    <div class="spec-value">118.8</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="power-section">
+            <div class="power-title">Faixa de Potência</div>
+            <div class="power-grid">
+                <div class="power-item">
+                    <div class="power-label">Intensity SL HP (Standard Loop)</div>
+                    <div class="power-value">+17.5 a +27.0 D (0.5 D incrementos)</div>
+                </div>
+                <div class="power-item">
+                    <div class="power-label">Intensity Toric HP</div>
+                    <div class="power-value">+19.5 a +27.0 D | Cilindro: 1.0 D</div>
+                </div>
+                <div class="power-item">
+                    <div class="power-label">Em breve</div>
+                    <div class="power-value">+5.0 a +34.0 D</div>
+                </div>
+                <div class="power-item">
+                    <div class="power-label">Adições</div>
+                    <div class="power-value">+1.5 D | +3.0 D</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="options-section">
+            <div class="option-badge">
+                <div class="option-icon">📦</div>
+                <div class="option-label">Preloaded</div>
+                <div class="option-description">Pré-carregada</div>
+            </div>
+            
+            <div class="option-badge">
+                <div class="option-icon">🔄</div>
+                <div class="option-label">Toric</div>
+                <div class="option-description">Correção de astigmatismo</div>
+            </div>
+            
+            <div class="option-badge">
+                <div class="option-icon">⚙️</div>
+                <div class="option-label">C Loop</div>
+                <div class="option-description">Alça C</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

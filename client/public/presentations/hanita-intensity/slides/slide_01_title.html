@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanita Intensity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 720px;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 50%, #4a90e2 100%);
+            display: flex;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .left-section {
+            flex: 1.2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding: 60px;
+        }
+        
+        .lens-visual {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            filter: drop-shadow(0 20px 60px rgba(0,0,0,0.4));
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .right-section {
+            flex: 1;
+            background: #ffffff;
+            padding: 80px 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .accent-bar {
+            width: 80px;
+            height: 6px;
+            background: linear-gradient(90deg, #c9a961 0%, #4a90e2 100%);
+            margin-bottom: 40px;
+        }
+        
+        .main-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 72px;
+            font-weight: 900;
+            color: #1e3a5f;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+        }
+        
+        .subtitle {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            font-weight: 400;
+            color: #4a90e2;
+            margin-bottom: 30px;
+            line-height: 1.3;
+        }
+        
+        .tagline {
+            font-family: 'Inter', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            color: #2c3e50;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+        
+        .features-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 16px;
+            color: #2c3e50;
+        }
+        
+        .feature-icon {
+            width: 24px;
+            height: 24px;
+            background: linear-gradient(135deg, #4a90e2, #c9a961);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 12px;
+            flex-shrink: 0;
+        }
+        
+        .logo-badge {
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            padding: 15px 25px;
+            border-radius: 8px;
+            color: white;
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="left-section">
+            <div class="logo-badge">HANITA LENSES</div>
+            <img src="/home/ubuntu/intensity_presentation/images/intensity_zones.png" alt="Hanita Intensity Pentafocal IOL" class="lens-visual">
+        </div>
+        
+        <div class="right-section">
+            <div class="accent-bar"></div>
+            <h1 class="main-title">Intensity</h1>
+            <h2 class="subtitle">Visão Pentafocal de Última Geração</h2>
+            <p class="tagline">Tecnologia Dynamic Light Utilization (DLU) para visão contínua e intensificada em todas as distâncias</p>
+            
+            <div class="features-list">
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <span><strong>5 Focos</strong> para visão contínua sem gaps</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <span><strong>46% menos</strong> perda de energia vs multifocais convencionais</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <span><strong>+1.3K olhos</strong> estudados com resultados comprovados</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <span><strong>Mínimos distúrbios visuais</strong> (halos e brilho reduzidos)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

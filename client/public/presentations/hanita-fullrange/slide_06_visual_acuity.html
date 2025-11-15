@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acuidade Visual Excepcional</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .page-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 36px;
+            line-height: 1.2;
+        }
+        .stat-hero {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            color: #c9a961;
+            font-size: 72px;
+            line-height: 1;
+        }
+        .stat-label {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 24px;
+            line-height: 1.3;
+        }
+        .body-text {
+            font-family: 'Open Sans', sans-serif;
+            color: #34495e;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .study-detail {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 16px;
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col p-16">
+        <!-- Title -->
+        <div class="mb-8">
+            <h1 class="page-title">Acuidade Visual Excepcional</h1>
+            <div class="w-24 h-1 bg-gradient-to-r from-yellow-600 to-blue-900 mt-4"></div>
+        </div>
+        
+        <!-- Main Content Grid -->
+        <div class="flex gap-10 items-center" style="min-height: 550px;">
+            <!-- Left: Chart -->
+            <div class="w-1/2 flex items-center justify-center">
+                <img src="/home/ubuntu/hanita_presentation/images/chart_visual_acuity.png" 
+                     alt="Gráfico de acuidade visual" 
+                     class="object-contain"
+                     style="max-height: 500px; width: 100%;">
+            </div>
+            
+            <!-- Right: Content -->
+            <div class="w-1/2 flex flex-col justify-center space-y-6">
+                <!-- Hero Stat -->
+                <div class="mb-4">
+                    <p class="stat-hero">98.3%</p>
+                    <p class="stat-label">alcançam 20/20 ou 20/25</p>
+                </div>
+                
+                <!-- Study Details -->
+                <div class="highlight-box">
+                    <p class="study-detail mb-3">Estudo Bianchi et al.</p>
+                    <p class="body-text mb-2"><strong>480 olhos</strong> avaliados</p>
+                    <p class="body-text mb-2"><strong>12 meses</strong> de acompanhamento</p>
+                    <p class="body-text">Acuidade visual não corrigida de longe (UDVA)</p>
+                </div>
+                
+                <!-- Key Findings -->
+                <div>
+                    <p class="body-text mb-3"><strong style="color: #2c3e50;">Resultados Destacados:</strong></p>
+                    <p class="body-text">• 85.4% atingem 20/20 ou melhor</p>
+                    <p class="body-text">• Apenas 0.2% com 20/40 ou pior</p>
+                    <p class="body-text">• Previsibilidade excepcional</p>
+                </div>
+                
+                <!-- Comparison Image -->
+                <div class="mt-4">
+                    <img src="/home/ubuntu/hanita_presentation/images/generated_comparison_table.png" 
+                         alt="Comparação visual" 
+                         class="object-contain"
+                         style="max-height: 120px; width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

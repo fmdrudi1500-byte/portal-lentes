@@ -1,0 +1,156 @@
+{
+  "project_info": {
+    "title": "Título",
+    "created": 1762988656.5404553,
+    "last_updated": 1762988962.0434384,
+    "total_slides": 18
+  },
+  "slides": {
+    "slide_01_title": "edited",
+    "slide_02_challenge": "edited",
+    "slide_03_solution": "edited",
+    "slide_04_dlu_technology": "edited",
+    "slide_05_optical_design": "edited",
+    "slide_06_clinical_results": "edited",
+    "slide_06_clinical_results_cont": "edited",
+    "slide_07_visual_quality": "edited",
+    "slide_08_vs_trifocal": "edited",
+    "slide_08_vs_trifocal_cont": "edited",
+    "slide_09_specifications": "edited",
+    "slide_10_manufacturing": "edited",
+    "slide_10_manufacturing_cont": "edited",
+    "slide_11_patient_satisfaction": "edited",
+    "slide_12_sales_arguments": "edited",
+    "slide_13_value_proposition": "edited",
+    "slide_14_references": "edited",
+    "slide_15_closing": "edited"
+  },
+  "outline": [
+    {
+      "id": "slide_01_title",
+      "title": "Título",
+      "summary": "Slide de abertura apresentando Hanita Intensity como lente pentafocal premium com tecnologia DLU",
+      "image_plan": "/home/ubuntu/hanita_presentation/images/generated_fullrange_hero.png - Image 24 is a conceptual illustration of a person smiling with clear vision at near (reading), intermediate (laptop), and far (landscape) distances, perfectly matching the slide's theme of \"visão além do comum\" and independence from glasses.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_02_challenge",
+      "title": "O Desafio da Visão Multifocal",
+      "summary": "Contextualização do problema: pacientes com catarata buscam independência de óculos em todas as distâncias (longe, intermediário, perto)",
+      "image_plan": "/home/ubuntu/upload/search_images/c2QgNNC2zDRS.jpg - Image 3 is a diagram comparing a normal eye, an eye with presbyopia, and an eye with presbyopia corrected, which directly addresses the slide's content about the challenge of presbyopia and the need for a complete solution.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_03_solution",
+      "title": "A Solução Intensity Pentafocal",
+      "summary": "Apresentação da Intensity como solução com 5 focos para visão contínua sem gaps visuais",
+      "image_plan": "/home/ubuntu/hanita_presentation/images/generated_technology_concept.png - Image 25 is a detailed, technical diagram of an IOL showing apodized diffractive zones, aspheric surface, and sharp square edge, which visually represents the \"Óptica Difrativa Apodizada Asférica\" technology described in the slide.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_04_dlu_technology",
+      "title": "Tecnologia Dynamic Light Utilization",
+      "summary": "Explicação da tecnologia DLU proprietária que maximiza utilização da luz com 46% menos perda de energia",
+      "image_plan": "/home/ubuntu/upload/search_images/waD3ExIkrWHL.jpg; /home/ubuntu/upload/search_images/iC0oq1Q2fgos.png - Image 1 is a diagram showing the light distribution of a multifocal lens with multiple foci, which illustrates the concept of continuous vision. Image 10 (from Search Grid 2) is a conceptual image showing a continuous range of vision, which supports the title.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_05_optical_design",
+      "title": "Design Óptico Pentafocal",
+      "summary": "Detalhamento do design com 12 degraus difrativos, 5 focos simétricos e visão contínua de infinito a 40cm",
+      "image_plan": "/home/ubuntu/upload/search_images/Kq6WImsfwzaU.jpg - Image 16 (from Search Grid 3) is a diagram illustrating Posterior Capsule Opacity (PCO) and the laser treatment, which is the core topic of the slide. Image 1 is a diagram showing the PCO mechanism.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_06_clinical_results",
+      "title": "Resultados Clínicos: Dados do Mundo Real",
+      "summary": "Primeira parte dos resultados clínicos focando nos dados quantitativos principais: +1.3K olhos estudados, acuidade visual 20/20 em todas as distâncias, e satisfação elevada de 95% dos pacientes. Inclui a imagem visual dos 5 focos distribuídos simetricamente.",
+      "image_plan": "/home/ubuntu/intensity_presentation/images/intensity_5foci.png - Imagem dos 5 focos distribuídos simetricamente da Intensity, mostrando a distribuição óptica que resulta nos excelentes resultados clínicos apresentados",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_06_clinical_results_cont",
+      "title": "Resultados Clínicos: Eficiência Luminosa",
+      "summary": "Continuação dos resultados clínicos focando na eficiência luminosa superior da tecnologia DLU: 46% menos perda de energia comparado a multifocais convencionais, resultando em mínimos distúrbios visuais (halos e brilho reduzidos). Inclui referências aos estudos científicos que comprovam os resultados (Alió 2024, Bellucci 2024, Hanita Real World Results).",
+      "slide_template_key": "",
+      "image_plan": ""
+    },
+    {
+      "id": "slide_07_visual_quality",
+      "title": "Qualidade Visual Superior",
+      "summary": "Mínimos distúrbios visuais (halos e brilho reduzidos), confirmado por depoimentos de cirurgiões renomados",
+      "image_plan": "/home/ubuntu/upload/search_images/qMjLe9yuRyW6.png; /home/ubuntu/upload/search_images/lK9JJI7Gg31F.jpg - Image 11 (from Search Grid 2) and Image 12 (from Search Grid 2) are graphs showing contrast sensitivity curves, which are the exact visual elements requested to compare performance. Image 11 is a general contrast sensitivity curve. Image 12 is a graph comparing contrast sensitivity.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_08_vs_trifocal",
+      "title": "Pentafocal vs Trifocal: Número de Focos e Visão Contínua",
+      "summary": "Primeira parte da comparação entre Intensity Pentafocal e lentes Trifocais convencionais, focando nos dois primeiros aspectos: (1) Número de Focos - Intensity com 5 focos distribuídos simetricamente vs Trifocal com apenas 3 focos (longe, intermediário, perto); (2) Visão Contínua - Intensity sem gaps visuais com transições suaves vs Trifocal com zonas de transição desconfortáveis entre focos. Layout em duas colunas comparativas com coluna esquerda para Trifocal (cinza neutro) e coluna direita para Intensity (azul/dourado destacado).",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_08_vs_trifocal_cont",
+      "title": "Pentafocal vs Trifocal: Distúrbios Visuais e Eficiência Luminosa",
+      "summary": "Continuação da comparação entre Intensity Pentafocal e lentes Trifocais convencionais, focando nos dois últimos aspectos: (3) Distúrbios Visuais - Intensity com mínimos halos e brilho vs Trifocal com fenômenos visuais noturnos significativos; (4) Eficiência Luminosa - Intensity com 46% menos perda de energia através da tecnologia DLU proprietária vs Trifocal com perda padrão da tecnologia difrativa convencional. Manter o mesmo layout de duas colunas comparativas, finalizando com badge dourado 'ESCOLHA SUPERIOR PARA QUALIDADE VISUAL' destacando a superioridade da Intensity.",
+      "slide_template_key": "",
+      "image_plan": ""
+    },
+    {
+      "id": "slide_09_specifications",
+      "title": "Especificações Técnicas",
+      "summary": "Material hidrofóbico livre de glistening, faixa de potência, constante A 118.8, opções preloaded e tórica",
+      "image_plan": "/home/ubuntu/hanita_presentation/images/generated_support_resources.png - Image 33 is a visual comparison of \"Hanita FullRange\" vs. \"Competitor Lens\" highlighting superior features like continuous vision, low halos, and improved contrast sensitivity, which is perfect for a head-to-head comparison slide.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_10_manufacturing",
+      "title": "Fabricação de Precisão",
+      "summary": "Primeira parte sobre fabricação: introdução ao processo de torno proprietário da Hanita que garante máxima precisão sem necessidade de polimento, destacando a precisão micrométrica que cria réplica idêntica do design óptico. Inclui imagem ilustrativa do perfil óptico com 12 degraus difrativos.",
+      "image_plan": "/home/ubuntu/intensity_presentation/images/intensity_zones.png - Imagem do perfil óptico com 12 degraus difrativos fabricados com precisão micrométrica, ilustrando o resultado do processo de fabricação avançado",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_10_manufacturing_cont",
+      "title": "Fabricação de Precisão: Vantagens",
+      "summary": "Continuação sobre fabricação: destaque para a borda quadrada 360° mais afiada do mercado que reduz PCO, processo livre de polimento que garante nitidez ótima e reprodutibilidade perfeita, controle de qualidade rigoroso, reprodutibilidade consistente entre lotes e estabilidade dimensional superior.",
+      "slide_template_key": "",
+      "image_plan": ""
+    },
+    {
+      "id": "slide_11_patient_satisfaction",
+      "title": "Satisfação do Paciente",
+      "summary": "Depoimentos de cirurgiões e dados de satisfação elevada dos pacientes",
+      "image_plan": "/home/ubuntu/upload/search_images/94Qyj6Fqttse.png - Image 4 (from Search Grid 1) is a diagram of a diffractive IOL with multiple zones, which can be used to illustrate the concept of 5 foci or the evolution from 3 to 5 foci.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_12_sales_arguments",
+      "title": "5 Argumentos de Venda",
+      "summary": "Principais argumentos: visão mais ampla do mundo, 46% menos distúrbios, tecnologia patenteada, excelência em todos os focos, alta satisfação",
+      "image_plan": "/home/ubuntu/hanita_presentation/images/generated_longterm_satisfaction.png - Image 31 is a close-up image of eye surgery/implantation, which visually represents the \"Facilidade de Implantação\" and surgical process.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_13_value_proposition",
+      "title": "Proposta de Valor",
+      "summary": "Investimento vs retorno: qualidade de vida, independência de óculos, tecnologia de ponta",
+      "image_plan": "/home/ubuntu/hanita_presentation/images/generated_value_proposition.png - Image 35 is a visual matrix showing different types of IOLs and haptic designs (Closed-loop, Open-loop, Plate haptic, Multifocal, Aspheric), which perfectly illustrates the \"Portfólio Completo\" of Hanita lenses.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_14_references",
+      "title": "Referências Científicas",
+      "summary": "Listagem de estudos publicados: Alió 2024, Bellucci 2024, Real World Results +1.3K olhos",
+      "image_plan": "/home/ubuntu/hanita_presentation/images/generated_next_steps.png - Image 36 is a professional visual of medical education resources (laptop with calculator, video training on tablet, printed materials), which represents the scientific and educational support offered.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_15_closing",
+      "title": "Encerramento",
+      "summary": "Slide final com call-to-action e contato",
+      "image_plan": "/home/ubuntu/hanita_presentation/images/generated_vision_quality.png - Image 27 is an infographic titled \"FIVE KEY MESSAGES\" with icons for Freedom, Science, Safety, Ease of Use, and Value, which aligns perfectly with the slide's content on key selling arguments.",
+      "slide_template_key": ""
+    }
+  ]
+}

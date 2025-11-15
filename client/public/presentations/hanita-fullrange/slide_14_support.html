@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos e Suporte</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .page-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 36px;
+        }
+        .resource-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2c3e50;
+            font-size: 20px;
+        }
+        .resource-text {
+            font-family: 'Open Sans', sans-serif;
+            color: #34495e;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .icon-box {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+        }
+        .icon-box i {
+            font-size: 24px;
+            color: #c9a961;
+        }
+        .resource-card {
+            background: #f8f9fa;
+            padding: 18px;
+            min-height: 160px;
+        }
+        .commitment-box {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 16px;
+            text-align: center;
+        }
+        .commitment-text {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col p-12">
+        <!-- Title -->
+        <div class="mb-5">
+            <h1 class="page-title">Recursos e Suporte</h1>
+            <div class="w-24 h-1 bg-gradient-to-r from-yellow-600 to-blue-900 mt-3"></div>
+        </div>
+        
+        <!-- Main Content Grid -->
+        <div class="flex gap-8 items-center flex-1">
+            <!-- Left: Image -->
+            <div class="w-2/5 flex items-center justify-center">
+                <img src="/home/ubuntu/hanita_presentation/images/generated_support_resources.png" 
+                     alt="Recursos educacionais e ferramentas de suporte" 
+                     class="object-contain"
+                     style="max-height: 380px; width: 100%;">
+            </div>
+            
+            <!-- Right: Resources Grid -->
+            <div class="w-3/5 flex flex-col">
+                <div class="grid grid-cols-2 gap-5">
+                    <!-- Resource 1: Calculators -->
+                    <div class="resource-card">
+                        <div class="icon-box">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3 class="resource-title mb-2">Calculadoras de LIO</h3>
+                        <p class="resource-text">Ferramentas online para cálculo preciso de poder dióptrico, simulações de resultados visuais e seleção de lentes personalizadas.</p>
+                    </div>
+                    
+                    <!-- Resource 2: Educational Materials -->
+                    <div class="resource-card">
+                        <div class="icon-box">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3 class="resource-title mb-2">Materiais Educacionais</h3>
+                        <p class="resource-text">Brochuras para pacientes, estudos de caso detalhados, literatura científica atualizada e guias de produto completos.</p>
+                    </div>
+                    
+                    <!-- Resource 3: Training -->
+                    <div class="resource-card">
+                        <div class="icon-box">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="resource-title mb-2">Treinamento e Capacitação</h3>
+                        <p class="resource-text">Vídeos tutoriais, webinars ao vivo, workshops presenciais e certificações para desenvolvimento contínuo da equipe de vendas.</p>
+                    </div>
+                    
+                    <!-- Resource 4: Technical Support -->
+                    <div class="resource-card">
+                        <div class="icon-box">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3 class="resource-title mb-2">Suporte Técnico</h3>
+                        <p class="resource-text">Equipe especializada disponível para consultas técnicas, suporte em casos complexos e acompanhamento pós-venda dedicado.</p>
+                    </div>
+                </div>
+                
+                <!-- Commitment Message -->
+                <div class="commitment-box mt-4">
+                    <p class="commitment-text">
+                        <i class="fas fa-handshake" style="color: #c9a961; margin-right: 12px;"></i>
+                        Comprometidos com o seu sucesso: Suporte completo em todas as etapas da jornada de vendas
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

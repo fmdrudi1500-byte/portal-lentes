@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologia Dynamic Light Utilization</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 720px;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #ffffff;
+            padding: 50px 80px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        
+        .left-content {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .accent-bar {
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, #c9a961 0%, #4a90e2 100%);
+            margin-bottom: 20px;
+        }
+        
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 25px;
+            line-height: 1.2;
+        }
+        
+        .description {
+            font-size: 18px;
+            color: #2c3e50;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        .highlight-stat {
+            background: linear-gradient(135deg, #1e3a5f 0%, #4a90e2 100%);
+            padding: 25px 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            font-weight: 900;
+            color: #c9a961;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+        
+        .stat-label {
+            font-size: 18px;
+            color: #ffffff;
+            font-weight: 600;
+        }
+        
+        .benefits-list {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+        
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        
+        .benefit-icon {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, #4a90e2, #c9a961);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        
+        .benefit-text {
+            flex: 1;
+        }
+        
+        .benefit-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 5px;
+        }
+        
+        .benefit-description {
+            font-size: 16px;
+            color: #2c3e50;
+            line-height: 1.5;
+        }
+        
+        .right-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .tech-image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .image-caption {
+            font-size: 14px;
+            color: #4a90e2;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="left-content">
+            <div class="accent-bar"></div>
+            <h1 class="title">Tecnologia Dynamic Light Utilization</h1>
+            
+            <p class="description">
+                O algoritmo proprietário <strong>DLU</strong> da Hanita usa loops iterativos entre os planos de origem e destino para maximizar a utilização da intensidade da luz, propondo padrões de fase otimizados que alcançam a distribuição ideal de luz.
+            </p>
+            
+            <div class="highlight-stat">
+                <div class="stat-number">46%</div>
+                <div class="stat-label">MENOS PERDA DE ENERGIA vs multifocais convencionais</div>
+            </div>
+            
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div class="benefit-text">
+                        <div class="benefit-title">Máxima Eficiência Luminosa</div>
+                        <div class="benefit-description">
+                            Otimização da distribuição de luz em todos os pontos focais
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div class="benefit-text">
+                        <div class="benefit-title">Mínimos Distúrbios Visuais</div>
+                        <div class="benefit-description">
+                            Redução significativa de halos e brilho noturno
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div class="benefit-text">
+                        <div class="benefit-title">Visão Mais Brilhante</div>
+                        <div class="benefit-description">
+                            Maior intensidade de luz resulta em imagens mais vívidas
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-content">
+            <img src="/home/ubuntu/intensity_presentation/images/intensity_5foci.png" alt="Tecnologia DLU - 5 Focos Simétricos" class="tech-image">
+            <p class="image-caption">5 focos distribuídos simetricamente ao redor da ordem zero</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pentafocal vs Trifocal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 720px;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #ffffff;
+            padding: 50px 100px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            margin-bottom: 50px;
+        }
+        
+        .accent-bar {
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, #c9a961 0%, #4a90e2 100%);
+            margin-bottom: 20px;
+        }
+        
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1e3a5f;
+            line-height: 1.2;
+        }
+        
+        .comparison-table {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            flex: 1;
+        }
+        
+        .column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .column-header {
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .trifocal-header {
+            background: #e9ecef;
+        }
+        
+        .pentafocal-header {
+            background: linear-gradient(135deg, #4a90e2 0%, #2c5282 100%);
+        }
+        
+        .column-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .trifocal-header .column-title {
+            color: #6c757d;
+        }
+        
+        .pentafocal-header .column-title {
+            color: #ffffff;
+        }
+        
+        .column-subtitle {
+            font-size: 18px;
+        }
+        
+        .trifocal-header .column-subtitle {
+            color: #6c757d;
+        }
+        
+        .pentafocal-header .column-subtitle {
+            color: #ffffff;
+            opacity: 0.9;
+        }
+        
+        .features-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            flex: 1;
+            justify-content: center;
+        }
+        
+        .feature-row {
+            padding: 30px;
+            background: #f8f9fa;
+            min-height: 140px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .pentafocal-header + .features-list .feature-row {
+            background: #e3f2fd;
+        }
+        
+        .feature-label {
+            font-size: 14px;
+            color: #4a90e2;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+        }
+        
+        .feature-value {
+            font-family: 'Playfair Display', serif;
+            font-size: 30px;
+            font-weight: 700;
+            color: #1e3a5f;
+            margin-bottom: 10px;
+        }
+        
+        .feature-description {
+            font-size: 17px;
+            color: #2c3e50;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="accent-bar"></div>
+            <h1 class="title">Pentafocal vs Trifocal</h1>
+        </div>
+        
+        <div class="comparison-table">
+            <div class="column">
+                <div class="column-header trifocal-header">
+                    <div class="column-title">Trifocal</div>
+                    <div class="column-subtitle">Lentes Convencionais</div>
+                </div>
+                
+                <div class="features-list">
+                    <div class="feature-row">
+                        <div class="feature-label">Número de Focos</div>
+                        <div class="feature-value">3 Focos</div>
+                        <div class="feature-description">
+                            Longe, intermediário e perto
+                        </div>
+                    </div>
+                    
+                    <div class="feature-row">
+                        <div class="feature-label">Visão Contínua</div>
+                        <div class="feature-value">❌ Gaps Visuais</div>
+                        <div class="feature-description">
+                            Zonas de transição desconfortáveis entre focos
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="column-header pentafocal-header">
+                    <div class="column-title">Intensity Pentafocal</div>
+                    <div class="column-subtitle">Tecnologia DLU</div>
+                </div>
+                
+                <div class="features-list">
+                    <div class="feature-row">
+                        <div class="feature-label">Número de Focos</div>
+                        <div class="feature-value">✅ 5 Focos</div>
+                        <div class="feature-description">
+                            Distribuição simétrica para visão contínua
+                        </div>
+                    </div>
+                    
+                    <div class="feature-row">
+                        <div class="feature-label">Visão Contínua</div>
+                        <div class="feature-value">✅ Sem Gaps</div>
+                        <div class="feature-description">
+                            Transições suaves em todas as distâncias
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

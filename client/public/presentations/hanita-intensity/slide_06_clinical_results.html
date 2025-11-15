@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados Clínicos: Dados do Mundo Real</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 720px;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #ffffff;
+            padding: 45px 100px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            margin-bottom: 35px;
+        }
+        
+        .accent-bar {
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, #c9a961 0%, #4a90e2 100%);
+            margin-bottom: 18px;
+        }
+        
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1e3a5f;
+            line-height: 1.2;
+        }
+        
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            flex: 1;
+            align-items: center;
+        }
+        
+        .metrics-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            gap: 30px;
+        }
+        
+        .metric-card {
+            padding: 0;
+        }
+        
+        .metric-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 68px;
+            font-weight: 900;
+            background: linear-gradient(135deg, #4a90e2 0%, #c9a961 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            margin-bottom: 15px;
+        }
+        
+        .metric-label {
+            font-size: 23px;
+            font-weight: 600;
+            color: #1e3a5f;
+            margin-bottom: 10px;
+        }
+        
+        .metric-description {
+            font-size: 17px;
+            color: #2c3e50;
+            line-height: 1.5;
+        }
+        
+        .visual-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .comparison-image {
+            width: 100%;
+            max-width: 480px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .image-caption {
+            text-align: center;
+            font-size: 15px;
+            color: #2c3e50;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="accent-bar"></div>
+            <h1 class="title">Resultados Clínicos: Dados do Mundo Real</h1>
+        </div>
+        
+        <div class="content-grid">
+            <div class="metrics-column">
+                <div class="metric-card">
+                    <div class="metric-number">+1.3K</div>
+                    <div class="metric-label">Olhos Estudados</div>
+                    <p class="metric-description">
+                        Dados do mundo real confirmam desempenho superior em estudos multicêntricos independentes
+                    </p>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-number">20/20</div>
+                    <div class="metric-label">Acuidade Visual</div>
+                    <p class="metric-description">
+                        Excelente acuidade visual em todas as distâncias: longe, intermediário e perto
+                    </p>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-number">95%</div>
+                    <div class="metric-label">Satisfação Elevada</div>
+                    <p class="metric-description">
+                        Alta satisfação do paciente com visão funcional contínua e mínimos distúrbios visuais
+                    </p>
+                </div>
+            </div>
+            
+            <div class="visual-column">
+                <img src="/home/ubuntu/intensity_presentation/images/intensity_5foci.png" alt="Distribuição dos 5 focos da Intensity" class="comparison-image">
+                <p class="image-caption">
+                    Distribuição simétrica dos 5 focos proporcionando visão contínua sem gaps
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
