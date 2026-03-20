@@ -1,12 +1,12 @@
-import type { QuizScores, LensRecommendation } from "./lensRecommendation";
+import type { IOLScores, LensRecommendation } from "./lensRecommendation";
 
 export interface QuizResult {
   id: string;              // Código único de 6 dígitos (ex: "A3K9M2")
   timestamp: number;       // Data/hora da conclusão
   profileName?: string;    // Nome do perfil (se foi pré-configurado)
   patientName?: string;    // Nome do paciente (opcional)
-  scores: QuizScores;      // Pontuações calculadas
-  recommendations: LensRecommendation[];  // Top 3 lentes recomendadas
+  scores: IOLScores;       // Pontuações calculadas
+  recommendations: LensRecommendation[];  // Lentes recomendadas
 }
 
 const STORAGE_KEY = "quiz_results";
